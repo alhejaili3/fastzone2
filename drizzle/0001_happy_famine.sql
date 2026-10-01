@@ -1,0 +1,1 @@
+ALTER TABLE `records` ADD `rating` integer DEFAULT 0 NOT NULL;

@@ -1,0 +1,3600 @@
+{
+  "records": [
+    {
+      "id": "atf-diagnosis",
+      "kind": "article_section",
+      "title": "01 — التشخيص أولًا: ما الذي تقوله القراءات؟",
+      "body": "تبدأ الخدمة بقراءة أكواد وحدة التحكم في ناقل الحركة وبيانات الحرارة والانزلاق والتعشيق عند توفرها، ثم فحص مستوى الزيت والتسربات. قد يرتبط العَرَض بمشكلة كهربائية أو هيدروليكية أو ميكانيكية لا تُحل باستبدال السائل.\n\nتُفحص عينة الزيت ورائحته وما يظهر في وعاء القير من رواسب. وقد تستدعي برادة معدنية كبيرة أو آثار احتكاك غير طبيعية اختبارًا أعمق؛ لا يمكن تحديد نسبة تلف الكلتشات بدقة من النظر إلى العينة وحدها.",
+      "image": "",
+      "price": "",
+      "meta": "automatic-transmission-fluid-guide",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "atf-exchange",
+      "kind": "article_section",
+      "title": "02 — استبدال الزيت: الطريقة تتبع نوع القير",
+      "body": "عند التفريغ من الصرة أو وعاء الزيت، يخرج جزء من إجمالي السائل، وتختلف النسبة بحسب تصميم الناقل. قد يبقى سائل في محول العزم والمبرد والمسارات الداخلية، لذلك تحدد تعليمات المصنع طريقة الخدمة والكمية المطلوبة.\n\nقد تسمح بعض النواقل بتبديل السائل عبر جهاز مناسب لمسار التبريد، بينما تفضّل نواقل أخرى التفريغ وإعادة التعبئة وفق إجراء محدد. لا يُفترض أن الجهاز يزيل 100% من الزيت، ولا يُستخدم ضغط زائد أو مادة غسيل من دون موافقة الشركة المصنعة.\n\nالأهم استخدام مواصفة الزيت الصحيحة للقير نفسه؛ فزيوت ATF وCVT وناقل الحركة مزدوج القابض ليست بدائل تلقائية لبعضها.",
+      "image": "",
+      "price": "",
+      "meta": "automatic-transmission-fluid-guide",
+      "status": "published",
+      "position": 2,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "atf-filter",
+      "kind": "article_section",
+      "title": "03 — الكارتير والفلتر: التفاصيل التي لا تُرى",
+      "body": "إذا كان تصميم القير يسمح بفك الكارتير وخدمة الفلتر، تُفحص المغناطيسات والرواسب ويُنظَّف الوعاء، ثم يُستبدل الفلتر أو وحدة الفلتر المدمجة وحشيات الإحكام وفق تعليمات القطعة.\n\nتُركّب المسامير بالتسلسل وعزم الشد الموصى بهما لتقليل مخاطر التسرب أو تلف القلاوظ. بعض النواقل لا يتطلب فك الكارتير في كل عملية تغيير، لذلك لا تُعمَّم هذه الخطوة على الجميع.",
+      "image": "/transmission-filter.webp",
+      "price": "",
+      "meta": "automatic-transmission-fluid-guide",
+      "status": "published",
+      "position": 3,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "atf-level",
+      "kind": "article_section",
+      "title": "04 — مستوى الزيت: الحرارة جزء من القياس",
+      "body": "يختلف أسلوب قياس المستوى بين قير له عصا قياس، وآخر يستخدم فتحة تعبئة أو فائضًا مع إجراء محدد للتعشيق وتشغيل المحرك. القراءة الصحيحة تتطلب وضعية السيارة وحرارة الزيت المنصوص عليهما لنوع الناقل.\n\nلا توجد نافذة 35–50 درجة مئوية تصلح لجميع السيارات؛ حتى نواقل الشركات المختلفة قد تتطلب درجات أعلى أو أقل. يُرصد نطاق الحرارة المناسب بجهاز الفحص أو بالطريقة المعتمدة، لأن نقص الزيت أو زيادته قد يسببان مشكلات تشغيلية.\n\nبعد الخدمة تُفحص التسربات ويُختبر التبديل. إعادة تعلّم أو تصفير قيم ناقل الحركة تُنفذ فقط إذا نصت تعليمات الشركة على ذلك أو استدعتها عملية الإصلاح، لا تلقائيًا عند كل تغيير زيت.",
+      "image": "/transmission-level.webp",
+      "price": "",
+      "meta": "automatic-transmission-fluid-guide",
+      "status": "published",
+      "position": 4,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "atf-takeaway",
+      "kind": "article_section",
+      "title": "الهدف: صيانة مناسبة، لا إجراء واحد للجميع",
+      "body": "الصيانة الجيدة تجمع بين تشخيص حالة القير، واختيار الزيت المعتمد، وتطبيق طريقة التغيير ومستوى التعبئة المناسبين. إذا ظهرت نتعة أو انزلاق مستمران، فالأولوية لتحديد السبب قبل الوعد بأن الزيت الجديد سيحل المشكلة.\n\nاتباع جدول الصيانة وإرشادات الناقل قد يساعد على الحفاظ على سلاسة التبديل وتقليل احتمالات التلف، لكن عمر القير ونتيجة الإصلاح يتأثران بحالته الفعلية وطريقة استخدامه.",
+      "image": "",
+      "price": "",
+      "meta": "automatic-transmission-fluid-guide",
+      "status": "published",
+      "position": 5,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "atf-warning-signs",
+      "kind": "article_section",
+      "title": "متى يستحق القير فحصًا قبل موعد الصيانة؟",
+      "body": "تأخر التعشيق عند الانتقال من P إلى D أو R، أو نتعة غير معتادة عند تبديل السرعات، إشارات تستحق فحص مستوى الزيت وحالة ناقل الحركة.\n\nإذا ارتفعت دورات المحرك (RPM) دون تسارع مماثل للسيارة، فقد يكون هناك انزلاق يحتاج إلى تشخيص سريع؛ تغيير الزيت وحده لا يعالج بالضرورة الكلتشات المتضررة.\n\nتغيّر لون الزيت أو ظهور رائحة احتراق قد يبرران فحصًا أقرب، لكن لون الزيت وحده لا يكشف مقدار تآكله ولا يحدد سبب العطل. يُراجع أيضًا جدول الصيانة وتسرب الزيت واستخدام السيارة.",
+      "image": "",
+      "price": "",
+      "meta": "automatic-transmission-fluid-guide",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "automatic-transmission-fluid-guide",
+      "kind": "article",
+      "title": "زيت القير الأوتوماتيكي: متى تغيّره وكيف تتم الصيانة الصحيحة؟",
+      "body": "زيت القير الأوتوماتيكي (ATF) ليس مجرد مادة تزييت؛ ففي نواقل الحركة التقليدية ينقل الضغط الهيدروليكي، ويساعد على التبريد، وتؤثر خصائص احتكاكه في طريقة تعشيق الكلتشات.\n\nلكن ليس كل ناقل حركة يستخدم الزيت نفسه أو يتبع طريقة الصيانة نفسها. قبل اختيار الاستبدال الجزئي أو الإجراء الأشمل، تبدأ القصة بتحديد نوع القير وحالته ومواصفات الشركة المصنعة.",
+      "image": "/transmission-editorial.webp",
+      "price": "",
+      "meta": "cat-oils",
+      "status": "published",
+      "position": 4,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "battery",
+      "kind": "service",
+      "title": "فحص البطارية والدينمو والسلف",
+      "body": "فحص كهرباء التشغيل بأجهزة متخصصة",
+      "image": "",
+      "price": "30 ريال",
+      "meta": "",
+      "status": "draft",
+      "position": 8,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "battery-check",
+      "kind": "service_feature",
+      "title": "فحص البطارية والدينمو والسلف",
+      "body": "فحص كهرباء التشغيل والشحن بأجهزة متخصصة.",
+      "image": "",
+      "price": "",
+      "meta": "battery",
+      "status": "published",
+      "position": 23,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "brake-bleed",
+      "kind": "article_section",
+      "title": "02 — استبدل السائل ونفّس الدائرة بالطريقة المناسبة",
+      "body": "يُستخدم سائل الفرامل بالمواصفة التي تحددها الشركة، ويُستبدل دون السماح بانخفاض مستوى الخزان ودخول الهواء. قد يكون جهاز التنفيس بالضغط مناسبًا، كما تسمح بعض السيارات بالتنفيس اليدوي وفق إجراء الصيانة.\n\nتنفيس وحدة ABS بأوامر جهاز الفحص مطلوب في حالات محددة، مثل دخول الهواء إلى الوحدة أو استبدال بعض مكوناتها، حسب الطراز. تشغيل صماماتها إلكترونيًا ليس خطوة إلزامية لكل تغيير دوري للسائل.",
+      "image": "",
+      "price": "",
+      "meta": "brake-system-care-guide",
+      "status": "published",
+      "position": 2,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "brake-caliper",
+      "kind": "article_section",
+      "title": "04 — كليبر يتحرك بحرية وفرامل لا تحتك باستمرار",
+      "body": "تُراجع مسامير انزلاق الكليبر والجلود الواقية ومكبس الفرامل بحثًا عن الصدأ أو التعليق أو التسرب. الأجزاء التالفة تُستبدل وفق الحالة، مع تنظيف نقاط التلامس المناسبة.\n\nيُستخدم شحم فرامل متوافق مع الجلود وفي المواضع التي تسمح بها تعليمات القطعة، بعيدًا عن سطح القرص والفحمة. لا يُفترض أن شحم السيراميك والسيليكون مادة واحدة أو يصلح كل منهما لكل موضع.",
+      "image": "",
+      "price": "",
+      "meta": "brake-system-care-guide",
+      "status": "published",
+      "position": 4,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "brake-discs",
+      "kind": "article_section",
+      "title": "03 — افحص القرص والفحمات بقياسات واضحة",
+      "body": "تُقاس سماكة الفحمات والأقراص وتُقارن بالحد الأدنى الخاص بالسيارة. وعند وجود رجفة تُراجع سماكة القرص في عدة مواضع ومقدار انحرافه الجانبي بساعة القياس، مع فحص السطح والمحور.\n\nتحدد مواصفات الصانع ما إذا كان القرص يصلح للخراطة أو يجب تغييره. ليست كل رجفة ناتجة عن اعوجاج القرص، لذلك تُفحص العجلات والتعليق عند الحاجة.",
+      "image": "/brake-care-disc.webp",
+      "price": "",
+      "meta": "brake-system-care-guide",
+      "status": "published",
+      "position": 3,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "brake-finish",
+      "kind": "article_section",
+      "title": "النتيجة تُثبت بالفحص، لا باسم الإجراء",
+      "body": "بعد الخدمة تُفحص التسربات ومستوى السائل وثبات الدواسة، وتُختبر الفرامل بطريقة آمنة. الهدف معالجة السبب الفعلي والحفاظ على استجابة توقف متوقعة حسب حالة السيارة.",
+      "image": "",
+      "price": "",
+      "meta": "brake-system-care-guide",
+      "status": "published",
+      "position": 5,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "brake-fluid",
+      "kind": "service",
+      "title": "تغيير زيت الفرامل بالأجهزة",
+      "body": "تجديد سائل الفرامل وتفريغ الهواء من الخطوط باستخدام أجهزة مخصصة، مع مراعاة مواصفات سائل الفرامل وإجراءات الصانع.",
+      "image": "/brake-care-editorial.webp",
+      "price": "تبدأ من 50 ريال",
+      "meta": "cat-brakes",
+      "status": "published",
+      "position": 11,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "brake-fluid-approved-feature-0",
+      "kind": "service_feature",
+      "title": "استبدال السائل القديم",
+      "body": "استبدال زيت الفرامل القديم وتجديد السائل في مسارات المنظومة.",
+      "image": "/brake-care-editorial.webp",
+      "price": "",
+      "meta": "brake-fluid",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "brake-fluid-approved-feature-1",
+      "kind": "service_feature",
+      "title": "تفريغ الهواء",
+      "body": "تفريغ الهواء من خطوط الفرامل لدعم استجابة الدواسة وفق إجراءات السيارة.",
+      "image": "/brake-care-disc.webp",
+      "price": "",
+      "meta": "brake-fluid",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "brake-fluid-approved-feature-2",
+      "kind": "service_feature",
+      "title": "حماية المنظومة",
+      "body": "يساعد السائل المطابق للمواصفات على الحد من التآكل والصدأ؛ تُقيّم كفاءة الفرامل بالفحص.",
+      "image": "/brake-care-editorial.webp",
+      "price": "",
+      "meta": "brake-fluid",
+      "status": "published",
+      "position": 2,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "brake-fluid-approved-package-0",
+      "kind": "package",
+      "title": "الباقة الأساسية",
+      "body": "تغيير زيت الفرامل\nالسعر غير شامل الزيت",
+      "image": "/brake-care-editorial.webp",
+      "price": "50 ريال",
+      "meta": "brake-fluid",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "brake-fluid-approved-package-1",
+      "kind": "package",
+      "title": "الباقة الشاملة",
+      "body": "تغيير زيت الفرامل\nتشمل 4 علب زيت فرامل",
+      "image": "/brake-care-disc.webp",
+      "price": "تبدأ من 100 ريال",
+      "meta": "brake-fluid",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "brake-fluid-extra-17",
+      "kind": "service_extra",
+      "title": "باقة فحوصات إضافية",
+      "body": "برمجة زيت الفرامل بالكمبيوتر\nفحص الهوبات بالجهاز\nفحص الإطارات بالجهاز\nفحص الأقمشة بالجهاز",
+      "image": "/brake-care-disc.webp",
+      "price": "70 ريال",
+      "meta": "brake-fluid",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "brake-fluid-note-18",
+      "kind": "service_note",
+      "title": "اختيار سائل الفرامل",
+      "body": "تتوفر زيوت فرامل من عدة شركات عالمية؛ يختار النوع المطابق لمواصفات السيارة.",
+      "image": "",
+      "price": "",
+      "meta": "brake-fluid",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "brake-fluid-poster",
+      "kind": "service_poster",
+      "title": "عرض الخدمة المعتمد",
+      "body": "",
+      "image": "/approved-brake-fluid.webp",
+      "price": "",
+      "meta": "brake-fluid",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "brake-fluid-test",
+      "kind": "article_section",
+      "title": "01 — افحص السائل قبل أن تتراجع مقاومته للحرارة",
+      "body": "يُختبر السائل بأداة مناسبة أو بقياس درجة غليانه، مع مراجعة فترة تغييره المحددة للسيارة. الرطوبة يمكن أن تخفض درجة الغليان وتزيد احتمال تكون بخار قابل للانضغاط عند الفرملة الشديدة.\n\nلا توجد قاعدة دقيقة تقول إن كل سائل عند نسبة ماء 3% يفقد 100 درجة مئوية؛ تختلف القيم باختلاف نوع السائل وحالته. وإذا كانت الدواسة إسفنجية فابحث أيضًا عن هواء أو تسرب أو خلل هيدروليكي.",
+      "image": "",
+      "price": "",
+      "meta": "brake-system-care-guide",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "brake-signs",
+      "kind": "article_section",
+      "title": "إشارات لا ينبغي تأجيل فحصها",
+      "body": "دواسة منخفضة أو إسفنجية، أو انحراف السيارة عند الفرملة، تستدعي فحصًا عاجلًا للتسرب والهواء والاحتكاك غير المتساوي. إذا ضعفت استجابة الفرامل فلا تواصل القيادة.\n\nارتجاج المقود أو نبض الدواسة أثناء الفرملة قد يرتبط باختلاف سماكة القرص أو بسطحه، كما قد تؤثر حالة العجلات والتعليق؛ التشخيص يحدد السبب.\n\nلون السائل الداكن يدعو للفحص، لكنه وحده لا يحدد نسبة الماء ولا موعد الاستبدال؛ يُراجع كذلك جدول الشركة ونوع السائل.",
+      "image": "",
+      "price": "",
+      "meta": "brake-system-care-guide",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "brake-system-care-guide",
+      "kind": "article",
+      "title": "المسار الفني لصيانة الفرامل وسائلها الهيدروليكي",
+      "body": "عندما تضغط دواسة الفرامل، ينقل السائل الهيدروليكي الضغط إلى المكابح. وفي معظم السيارات يمتص سائل الفرامل المعتمد على الجليكول الرطوبة مع الزمن؛ وقد ينخفض بذلك هامش أمانه الحراري عند الكبح المتكرر.\n\nسلامة التوقف لا تتعلق بالسائل وحده. حالة الأقراص والفحمات والكليبر والليات ووحدة مانع الانغلاق تحدد الخطوة الصحيحة بعد الفحص.",
+      "image": "/brake-care-editorial.webp",
+      "price": "",
+      "meta": "cat-electrical",
+      "status": "published",
+      "position": 6,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "c8bcd3cb-c31b-4df4-a0e9-a55405049652",
+      "kind": "article_section",
+      "title": "0",
+      "body": "",
+      "image": "",
+      "price": "",
+      "meta": "cooling-guide",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-09-23T22:49:34.686Z",
+      "rating": 0
+    },
+    {
+      "id": "care-air",
+      "kind": "article_section",
+      "title": "03 — تنفس أفضل للمحرك والمقصورة",
+      "body": "يُراجع فلتر هواء المحرك وفلتر المقصورة وفق جدول السيارة وحالة الاستخدام. انسداد فلتر المقصورة قد يقلل تدفق الهواء، لكن ضعف التبريد قد ينتج أيضًا عن أسباب أخرى في منظومة التكييف.\n\nاختيار فلتر بالمقاس والمواصفة الصحيحين وتركيبه بإحكام يمنع دخول الأتربة من حوله؛ التغيير يكون عند الحاجة أو الموعد، لا وفق لون الفلتر وحده.",
+      "image": "",
+      "price": "",
+      "meta": "preventive-car-care-guide",
+      "status": "published",
+      "position": 3,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "care-finish",
+      "kind": "article_section",
+      "title": "خطة تناسب سيارتك تمنحك قرارات أوضح",
+      "body": "الصيانة الوقائية قد تقلل الأعطال المفاجئة وتساعد في الحفاظ على حالة السيارة، لكن نتيجتها وتكلفتها تختلف بحسب الطراز والاستخدام. ابدأ بدليل السيارة ثم استخدم الفحص لتحديد الأولويات.",
+      "image": "",
+      "price": "",
+      "meta": "preventive-car-care-guide",
+      "status": "published",
+      "position": 5,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "care-hoses",
+      "kind": "article_section",
+      "title": "01 — حرارة المحرك والكهرباء تبدأ من تفاصيل صغيرة",
+      "body": "تُراجع الليات والوصلات والسيور حيث توجد بحثًا عن تشقق أو تسرب أو تآكل، وتُفحص حالة البطارية وأقطابها وثبات التوصيل. بعض السيارات لا تستخدم سيرًا ملحقًا لبعض المكونات، فتتبع قائمة الفحص تصميمها الفعلي.\n\nأي ترسب على أقطاب البطارية يُعالج بأمان بعد تحديد سببه. وفقد سائل التبريد المتكرر يحتاج تشخيص مصدره قبل مجرد تعويض النقص.",
+      "image": "",
+      "price": "",
+      "meta": "preventive-car-care-guide",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "care-schedule",
+      "kind": "article_section",
+      "title": "04 — جدول يجمع المسافة والزمن وحالة السوائل",
+      "body": "بعض أعمال الصيانة تُحدد بالمسافة أو الزمن، أيهما يأتي أولًا. راجع الزيت وسائل التبريد والفرامل وسائل التوجيه إن وجد، وتأكد من مواصفات كل منتج قبل الإضافة أو التبديل.\n\nاحتفظ بسجل للتواريخ والعداد والأعمال المنفذة، ولا تؤجل عيبًا يمس الفرامل أو الإطارات أو ارتفاع حرارة المحرك إلى الموعد الدوري التالي.",
+      "image": "",
+      "price": "",
+      "meta": "preventive-car-care-guide",
+      "status": "published",
+      "position": 4,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "care-signs",
+      "kind": "article_section",
+      "title": "تغيّرات صغيرة تستحق ملاحظة مبكرة",
+      "body": "صوت جديد عند المطبات، وضعف تدفق هواء المكيف، وتآكل غير متساوٍ للإطارات، أو استهلاك وقود يتغير دون سبب واضح: كلها مؤشرات للفحص، وليست تشخيصًا نهائيًا.\n\nسجل الملاحظة ووقت ظهورها بدل تأجيلها؛ تفاصيل بسيطة مثل السرعة أو تشغيل المكيف تساعد الفني على تضييق أسباب المشكلة.",
+      "image": "",
+      "price": "",
+      "meta": "preventive-car-care-guide",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "care-tires",
+      "kind": "article_section",
+      "title": "02 — الإطارات والتعليق: ثبات يبدأ من نقاط التلامس",
+      "body": "يُفحص ضغط الإطارات وهي باردة وفق ملصق السيارة، وعمق النقشة ونمط التآكل. تدوير الإطارات يساعد على توزيع التآكل إذا سمح مقاسها واتجاهها بذلك؛ يحدد دليل السيارة توقيته، وقد يكون نحو 8,000–10,000 كم عند غياب توجيه خاص.\n\nتُراجع المساعدات والأذرعة والجلود بحثًا عن تسرب أو خلوص أو تلف. ضبط زوايا العجلات يأتي بعد معالجة القطع التالفة، وليس علاجًا لكل تآكل غير منتظم.",
+      "image": "/preventive-care-suspension.webp",
+      "price": "",
+      "meta": "preventive-car-care-guide",
+      "status": "published",
+      "position": 2,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "cat-brakes",
+      "kind": "category",
+      "title": "الفرامل والإطارات",
+      "body": "العناية بالفرامل وحساسات الإطارات",
+      "image": "",
+      "price": "",
+      "meta": "general",
+      "status": "published",
+      "position": 6,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "cat-cooling",
+      "kind": "category",
+      "title": "نظام التبريد",
+      "body": "الرديتر والليات وسوائل التبريد",
+      "image": "",
+      "price": "",
+      "meta": "cooling",
+      "status": "published",
+      "position": 2,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "cat-electrical",
+      "kind": "category",
+      "title": "الكهرباء والتشخيص",
+      "body": "البطارية والفحص الإلكتروني",
+      "image": "",
+      "price": "",
+      "meta": "electrical",
+      "status": "published",
+      "position": 5,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "cat-engine",
+      "kind": "category",
+      "title": "المحرك",
+      "body": "فحص وصيانة مكونات المحرك وأدائه",
+      "image": "",
+      "price": "",
+      "meta": "engine",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "cat-exhaust",
+      "kind": "category",
+      "title": "العادم والانبعاثات",
+      "body": "دبة البيئة وحساسات العادم",
+      "image": "",
+      "price": "",
+      "meta": "exhaust",
+      "status": "published",
+      "position": 3,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "cat-oils",
+      "kind": "category",
+      "title": "الزيوت والفلاتر",
+      "body": "تغيير الزيوت والعناية بالفلاتر",
+      "image": "",
+      "price": "",
+      "meta": "oils",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "cat-steering",
+      "kind": "category",
+      "title": "نظام التوجيه",
+      "body": "زيت الدركسون ومكونات التوجيه",
+      "image": "",
+      "price": "",
+      "meta": "steering",
+      "status": "published",
+      "position": 4,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "catalyst-cleaning",
+      "kind": "article_section",
+      "title": "03 — التنظيف: متى يكون خيارًا منطقيًا؟",
+      "body": "إذا كان التقييد مرتبطًا برواسب قابلة للإزالة وثبتت ملاءمة الإجراء لنوع الدبة، يمكن تقييم استخدام مادة تنظيف وطريقة تطبيق معتمدتين. تُقارن حالة السيارة والقراءات قبل الخدمة وبعدها لتحديد ما تحقق فعليًا.\n\nأما القلب الخزفي المنصهر أو المكسور، أو الطبقة الحفازة التي فقدت فعاليتها، فلا يعيدها الغسيل إلى حالتها الأصلية. وقد يستلزم الضرر استبدال القطعة بعد إصلاح سبب العطل.",
+      "image": "",
+      "price": "",
+      "meta": "catalytic-converter-guide",
+      "status": "published",
+      "position": 3,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "catalyst-pressure",
+      "kind": "article_section",
+      "title": "02 — الضغط والحرارة: دليلان يكمل أحدهما الآخر",
+      "body": "عند الاشتباه بانسداد فعلي، يُقاس ضغط العادم العكسي من منفذ مناسب وبإجراء يراعي مواصفات السيارة. الارتفاع غير الطبيعي يساعد على تحديد وجود تقييد في مسار العادم ومكانه المحتمل.\n\nقد يُفحص فرق الحرارة عند مدخل الدبة ومخرجها بعد وصولها إلى حرارة التشغيل. يكون هذا القياس مؤشرًا مساعدًا فقط، لأن سماكة الأنابيب وظروف التشغيل وطريقة القياس قد تغيّر النتيجة؛ ولا يشخّص تلف الدبة بمفرده.",
+      "image": "/catalyst-temperature.webp",
+      "price": "",
+      "meta": "catalytic-converter-guide",
+      "status": "published",
+      "position": 2,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "catalyst-root-cause",
+      "kind": "article_section",
+      "title": "04 — أصل المشكلة: احمِ الدبة بعد الإصلاح",
+      "body": "قد تؤذي الدبةَ أعطالُ الاشتعال التي تترك وقودًا غير محترق، أو احتراق الزيت، أو تسرب سائل التبريد، أو خلل خليط الوقود والهواء. معالجة السبب أولًا تحمي الدبة القائمة أو البديلة من تكرار التلف.\n\nبعد الإصلاح، تُمسح الأكواد وتُتابع اختبارات جاهزية الانبعاثات وفق إجراء الشركة المصنعة. إعادة ضبط قيم الوقود التراكمية تُجرى عند الحاجة فقط، ولا تحل مكان الإصلاح أو التحقق من النتيجة.",
+      "image": "",
+      "price": "",
+      "meta": "catalytic-converter-guide",
+      "status": "published",
+      "position": 4,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "catalyst-sensors",
+      "kind": "article_section",
+      "title": "01 — حساسات الأكسجين: اقرأ النمط الكامل",
+      "body": "تُقارن بيانات الحساسات قبل الدبة وبعدها لمعرفة كيف يتغير العادم أثناء عبوره المحوّل. قد يدل تشابه الإشارتين، في بعض الأنظمة وظروف الاختبار، على انخفاض قدرة الدبة على تخزين الأكسجين ومعالجة الغازات.\n\nلكن قراءة الحساس الأمامي لا تتذبذب بالشكل نفسه في جميع السيارات؛ فأنظمة حساسات نسبة الهواء إلى الوقود تختلف. تُفسَّر الرسوم والقراءات حسب نوع السيارة وبعد التحقق من سلامة الحساسات وعدم وجود تسرب في العادم.",
+      "image": "/catalyst-sensors.webp",
+      "price": "",
+      "meta": "catalytic-converter-guide",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "catalyst-signs",
+      "kind": "article_section",
+      "title": "الإشارات الأولى: لاحظها، ولا تتعجل الحكم",
+      "body": "ثقل في التسارع، خصوصًا عند صعود المرتفعات، قد يصاحب تقييد خروج غازات العادم؛ لكنه قد ينتج أيضًا عن أسباب أخرى في المحرك أو الوقود.\n\nرائحة تشبه الكبريت، أو حرارة ملحوظة قرب مسار العادم، تستدعي الفحص. لا تُعد الرائحة أو الحرارة دليلًا مستقلًا على انسداد الدبة.\n\nالرمزان P0420 وP0430 يشيران عادة إلى انخفاض كفاءة المحوّل الحفاز عن الحد الذي يراقبه كمبيوتر السيارة؛ وقد تتداخل معهما تسربات العادم أو مشكلات الخليط والحساسات.\n\nلهذا تبدأ الخطوة الصحيحة بقراءة الأكواد والبيانات الحية وفحص التسربات وحالة عمل المحرك، ثم تحديد الاختبار المناسب.",
+      "image": "",
+      "price": "",
+      "meta": "catalytic-converter-guide",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "catalyst-takeaway",
+      "kind": "article_section",
+      "title": "القرار الأفضل يحافظ على المنظومة الأصلية",
+      "body": "الفحص الجيد يفرّق بين انسداد قابل للمعالجة، وتلف داخلي يحتاج إلى استبدال، وعطلٍ خارج الدبة يشبه أعراضها. لذلك لا يبدأ الحل بكسرها أو تفريغها أو افتراض أن التنظيف سينجح في كل حالة.\n\nالحفاظ على نظام العادم والانبعاثات بحالته السليمة يساعد على الحد من الروائح والضجيج والملوثات. اجتياز أي فحص دوري يعتمد على الحالة الفعلية للسيارة ومتطلبات الفحص، ولا يمكن ضمانه من إجراء واحد.",
+      "image": "",
+      "price": "",
+      "meta": "catalytic-converter-guide",
+      "status": "published",
+      "position": 5,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "catalytic",
+      "kind": "service",
+      "title": "فحص وتنظيف دبة البيئة",
+      "body": "خيارات متدرجة تبدأ بالمعاينة بالكاميرا وقياس الضغط، ثم اختيار وسيلة التنظيف المناسبة لحالة الدبة. التنظيف لا يعالج التلف الداخلي ويحدد الفحص مدى ملاءمته.",
+      "image": "/catalyst-editorial.webp",
+      "price": "تبدأ من 30 ريال",
+      "meta": "cat-exhaust",
+      "status": "published",
+      "position": 17,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "catalytic-approved-feature-0",
+      "kind": "service_feature",
+      "title": "الفحص التشخيصي",
+      "body": "معاينة الدبة بالكاميرا، مع خيار إضافة قياس الضغط لتقييم مسار العادم.",
+      "image": "/catalytic-camera-offer.webp",
+      "price": "",
+      "meta": "catalytic",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "catalytic-approved-feature-1",
+      "kind": "service_feature",
+      "title": "التنظيف بالتبخير",
+      "body": "تنظيف بالجهاز عن طريق التبخير عندما يسمح الفحص بذلك.",
+      "image": "/catalytic-vapor-offer.webp",
+      "price": "",
+      "meta": "catalytic",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "catalytic-approved-feature-2",
+      "kind": "service_feature",
+      "title": "التنظيف بالبخاخ المخصص",
+      "body": "خيارات مواد تنظيف صينية وألمانية وأمريكية أو بلجيكية وفق الباقة المختارة.",
+      "image": "/catalytic-foam-offer.webp",
+      "price": "",
+      "meta": "catalytic",
+      "status": "published",
+      "position": 2,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "catalytic-approved-package-0",
+      "kind": "package",
+      "title": "فحص بالكاميرا",
+      "body": "السعر للدبة الواحدة",
+      "image": "/catalytic-camera-offer.webp",
+      "price": "30 ريال",
+      "meta": "catalytic",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "catalytic-approved-package-1",
+      "kind": "package",
+      "title": "فحص ساعة الضغط والكاميرا",
+      "body": "السعر للدبة الواحدة",
+      "image": "/catalytic-camera-offer.webp",
+      "price": "80 ريال",
+      "meta": "catalytic",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "catalytic-approved-package-2",
+      "kind": "package",
+      "title": "تنظيف بالجهاز عن طريق التبخير",
+      "body": "السعر للدبة الواحدة",
+      "image": "/catalytic-vapor-offer.webp",
+      "price": "80 ريال",
+      "meta": "catalytic",
+      "status": "published",
+      "position": 2,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "catalytic-approved-package-3",
+      "kind": "package",
+      "title": "تنظيف ببخاخ صيني",
+      "body": "السعر للدبة الواحدة",
+      "image": "/catalytic-foam-offer.webp",
+      "price": "50 ريال",
+      "meta": "catalytic",
+      "status": "published",
+      "position": 3,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "catalytic-approved-package-4",
+      "kind": "package",
+      "title": "تنظيف ببخاخ ألماني",
+      "body": "السعر للدبة الواحدة",
+      "image": "/catalytic-foam-offer.webp",
+      "price": "80 ريال",
+      "meta": "catalytic",
+      "status": "published",
+      "position": 4,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "catalytic-approved-package-5",
+      "kind": "package",
+      "title": "تنظيف ببخاخ أمريكي / بلجيكي",
+      "body": "السعر للدبة الواحدة",
+      "image": "/catalytic-foam-offer.webp",
+      "price": "120 ريال",
+      "meta": "catalytic",
+      "status": "published",
+      "position": 5,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "catalytic-cleaning",
+      "kind": "service_feature",
+      "title": "التنظيف بالتبخير لسيارات البنزين",
+      "body": "تنظيف دبة البيئة بالجهاز والمواد المخصصة مع حقن مادة ألمانية فاخرة بالتبخير عبر الجهاز.",
+      "image": "/catalytic-vapor-offer.webp",
+      "price": "",
+      "meta": "catalytic",
+      "status": "draft",
+      "position": 19,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "catalytic-converter-guide",
+      "kind": "article",
+      "title": "دبة البيئة: متى تحتاج إلى الفحص والتنظيف؟",
+      "body": "داخل دبة البيئة، أو المحوّل الحفاز، تساعد طبقة تحتوي على معادن ثمينة في تقليل ملوثات العادم عبر تفاعلات كيميائية تحدث أثناء تشغيل المحرك. إنها جزء حساس من المنظومة، ولا يكفي ظهور عارض واحد للحكم على سلامتها.\n\nقد يبدأ الأمر بضعف عند التسارع، أو رائحة غير مألوفة، أو رمز عطل على جهاز الفحص. السؤال الأهم: هل المشكلة في الدبة نفسها، أم في المحرك الذي يرسل إليها العادم؟",
+      "image": "/catalyst-editorial.webp",
+      "price": "",
+      "meta": "cat-exhaust",
+      "status": "published",
+      "position": 3,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "catalytic-foam",
+      "kind": "service_feature",
+      "title": "التنظيف بالرغوة",
+      "body": "باقة رغوة بمنظف صناعة صينية أو صناعة ألمانية، بحسب اختيارك؛ السعر للدبة الواحدة.",
+      "image": "/catalytic-foam-offer.webp",
+      "price": "",
+      "meta": "catalytic",
+      "status": "draft",
+      "position": 20,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "catalytic-inspection",
+      "kind": "service_feature",
+      "title": "فحص دبة البيئة بكاميرا خاصة",
+      "body": "فحص دبة البيئة الواحدة بالكاميرا لمعاينة حالتها الداخلية قبل اختيار الخدمة المناسبة.",
+      "image": "/catalytic-camera-offer.webp",
+      "price": "",
+      "meta": "catalytic",
+      "status": "draft",
+      "position": 18,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "catalytic-note-86",
+      "kind": "service_note",
+      "title": "السعر للدبة الواحدة",
+      "body": "جميع الأسعار الموضحة للدبة الواحدة، ويحدد الفحص ملاءمة التنظيف.",
+      "image": "",
+      "price": "",
+      "meta": "catalytic",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "catalytic-oxygen",
+      "kind": "service_feature",
+      "title": "تنظيف حساس الأكسجين / الشكمان",
+      "body": "تنظيف حساس الأكسجين أو حساس الشكمان وفق الأعمال المذكورة ضمن الباقة المختارة.",
+      "image": "/catalyst-sensors.webp",
+      "price": "",
+      "meta": "catalytic",
+      "status": "draft",
+      "position": 21,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "catalytic-poster",
+      "kind": "service_poster",
+      "title": "عرض الخدمة المعتمد",
+      "body": "",
+      "image": "/approved-catalytic.webp",
+      "price": "",
+      "meta": "catalytic",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "clean-camera",
+      "kind": "service_feature",
+      "title": "فحص دبة البيئة بالكاميرا",
+      "body": "معاينة حالة دبة البيئة بالكاميرا للمساعدة في تحديد مدى ملاءمة التنظيف.",
+      "image": "/catalyst-temperature.webp",
+      "price": "",
+      "meta": "deep-cleaning",
+      "status": "draft",
+      "position": 6,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "clean-converter",
+      "kind": "service_feature",
+      "title": "تنظيف دبة البيئة",
+      "body": "تنظيف دبة البيئة بوسيلة ملائمة لحالتها بعد الفحص، دون اعتبار التنظيف بديلًا عن إصلاح التلف الداخلي.",
+      "image": "/catalyst-editorial.webp",
+      "price": "",
+      "meta": "deep-cleaning",
+      "status": "draft",
+      "position": 1,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "clean-egr-extra",
+      "kind": "service_feature",
+      "title": "تنظيف EGR · خدمة إضافية برسوم",
+      "body": "تنظيف نظام تدوير غازات العادم متاح كخدمة إضافية؛ يُحدد سعره قبل التنفيذ.",
+      "image": "/deep-cleaning-egr.webp",
+      "price": "",
+      "meta": "deep-cleaning",
+      "status": "draft",
+      "position": 8,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "clean-injectors",
+      "kind": "service_feature",
+      "title": "تنظيف البخاخات وتنظيم الرش",
+      "body": "تنظيف البخاخات وفحص نمط الرش بحسب نوع نظام الحقن وتجهيزات السيارة.",
+      "image": "/deep-cleaning-injectors.webp",
+      "price": "",
+      "meta": "deep-cleaning",
+      "status": "draft",
+      "position": 3,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "clean-manifold",
+      "kind": "service_feature",
+      "title": "تنظيف ثلاجة المحرك",
+      "body": "تنظيف رواسب مجرى السحب أو ثلاجة المحرك بالطريقة الملائمة لتصميمها وإمكانية الوصول إليها.",
+      "image": "/engine-tune-editorial.webp",
+      "price": "",
+      "meta": "deep-cleaning",
+      "status": "draft",
+      "position": 4,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "clean-oxygen",
+      "kind": "service_feature",
+      "title": "تنظيف حساس الأكسجين",
+      "body": "فحص وتنظيف حساس الأكسجين عندما تكون حالته تسمح بذلك، مع التأكد من عمله بعد الخدمة.",
+      "image": "/catalyst-sensors.webp",
+      "price": "",
+      "meta": "deep-cleaning",
+      "status": "draft",
+      "position": 2,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "clean-programming",
+      "kind": "service_feature",
+      "title": "برمجة السيارة",
+      "body": "فحص إلكتروني وإجراء البرمجة أو التهيئة المناسبة بعد الخدمة إذا احتاجت السيارة لذلك.",
+      "image": "/deep-cleaning-diagnostics.webp",
+      "price": "",
+      "meta": "deep-cleaning",
+      "status": "draft",
+      "position": 7,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "clean-throttle",
+      "kind": "service_feature",
+      "title": "تنظيف صمامات وبوابة الهواء",
+      "body": "تنظيف بوابة الهواء والأجزاء المناسبة حولها مع مراعاة حساسية الأجزاء الإلكترونية.",
+      "image": "/engine-tune-air.webp",
+      "price": "",
+      "meta": "deep-cleaning",
+      "status": "draft",
+      "position": 5,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "clean-turbo",
+      "kind": "service_feature",
+      "title": "تنظيف التوربو وإزالة الترسبات الصعبة",
+      "body": "تنظيف الجزء المناسب من منظومة التوربو والترسبات التي يمكن الوصول إليها، بحسب نوع السيارة وحالة التوربو.",
+      "image": "/deep-cleaning-turbo.webp",
+      "price": "",
+      "meta": "deep-cleaning",
+      "status": "draft",
+      "position": 0,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "computer",
+      "kind": "service",
+      "title": "فحص السيارة بالكمبيوتر",
+      "body": "فحص إلكتروني باستخدام جهاز LAUNCH X-431 PAD 9 لقراءة الأعطال، وإرسال التقرير للعميل عبر واتساب، ومسح الأكواد حسب إجراءات التشخيص.",
+      "image": "/deep-cleaning-diagnostics.webp",
+      "price": "30 ريال",
+      "meta": "cat-electrical",
+      "status": "published",
+      "position": 19,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "computer-approved-feature-0",
+      "kind": "service_feature",
+      "title": "فحص الأعطال",
+      "body": "قراءة أكواد الأعطال من أنظمة السيارة المتوافقة باستخدام جهاز LAUNCH X-431 PAD 9.",
+      "image": "/deep-cleaning-diagnostics.webp",
+      "price": "",
+      "meta": "computer",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "computer-approved-feature-1",
+      "kind": "service_feature",
+      "title": "التقرير عبر واتساب",
+      "body": "إرسال تقرير الفحص للعميل عبر واتساب ليحتفظ بنتائج القراءة.",
+      "image": "/deep-cleaning-diagnostics.webp",
+      "price": "",
+      "meta": "computer",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "computer-approved-feature-2",
+      "kind": "service_feature",
+      "title": "مسح الأكواد",
+      "body": "مسح الأكواد وفق إجراءات التشخيص؛ مسح الكود وحده لا يصلح سبب العطل.",
+      "image": "/deep-cleaning-diagnostics.webp",
+      "price": "",
+      "meta": "computer",
+      "status": "published",
+      "position": 2,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "computer-clear",
+      "kind": "service_feature",
+      "title": "مسح الأكواد",
+      "body": "مسح الأكواد عند ملاءمة ذلك بعد حفظ نتيجة الفحص.",
+      "image": "",
+      "price": "",
+      "meta": "computer",
+      "status": "draft",
+      "position": 14,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "computer-poster",
+      "kind": "service_poster",
+      "title": "عرض الخدمة المعتمد",
+      "body": "",
+      "image": "/approved-computer.webp",
+      "price": "",
+      "meta": "computer",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "computer-report",
+      "kind": "service_feature",
+      "title": "إرسال تقرير الفحص",
+      "body": "إرسال نتيجة الفحص للعميل عبر واتساب.",
+      "image": "",
+      "price": "",
+      "meta": "computer",
+      "status": "draft",
+      "position": 13,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "computer-scan",
+      "kind": "service_feature",
+      "title": "فحص الأعطال بالكمبيوتر",
+      "body": "قراءة الأكواد المسجلة في كمبيوتر السيارة.",
+      "image": "/deep-cleaning-diagnostics.webp",
+      "price": "",
+      "meta": "computer",
+      "status": "draft",
+      "position": 12,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "cooling-diagnosis",
+      "kind": "article_section",
+      "title": "01 — افحص السائل والضغط قبل اختيار العلاج",
+      "body": "تُراجع مواصفة السائل المستخدم وتركيزه وحالته. قد يساعد مقياس الانكسار في تقدير تركيز الحماية من التجمد، بينما تُستخدم اختبارات الحموضة والإضافات عندما تلائم نوع السائل وتعليمات فحصه؛ لا تكشف قراءة pH وحدها حالته كاملة.\n\nبعد أن تبرد السيارة، يُختبر ضغط المنظومة وغطاؤها بالمعدات والقيمة التي تحددها الشركة المصنعة، مع البحث عن آثار التسرب عند الليات والوصلات ومضخة الماء والرديتر. يُصلح مصدر التسرب قبل تعبئة سائل جديد.",
+      "image": "",
+      "price": "",
+      "meta": "cooling-system-cleaning-guide",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "cooling-fill",
+      "kind": "article_section",
+      "title": "04 — تعبئة السائل وطرد الهواء: اتبع مواصفة السيارة",
+      "body": "يُستخدم سائل تبريد بالمواصفة المعتمدة لسيارتك، سواء كان جاهزًا للاستخدام أو مركزًا يُخلط بالنسبة ونوع الماء اللذين تحددهما الشركة. تسميات OAT وHOAT وحدها أو لون العبوة لا تكفي لاختيار السائل المناسب.\n\nيمكن أن تساعد أداة التعبئة بالتفريغ في بعض السيارات على تقليل الهواء المحبوس، بينما تعتمد سيارات أخرى خطوات تنفيس محددة. المهم اتباع إجراء الطرد الصحيح والتحقق من مستوى السائل بعد وصول المحرك إلى ظروف التشغيل الموصى بها ثم بعد أن يبرد.",
+      "image": "/cooling-fill.webp",
+      "price": "",
+      "meta": "cooling-system-cleaning-guide",
+      "status": "published",
+      "position": 4,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "cooling-flush",
+      "kind": "article_section",
+      "title": "02 — تنظيف المسارات: حسب نوع الرواسب وحالة القطع",
+      "body": "إذا أكد الفحص وجود رواسب أو تلوث يستدعي الشطف، يُفرغ السائل القديم ويُختار إجراء تنظيف مناسب لمواد الرديتر والمحرك وتعليمات السيارة. ليست كل منظومة بحاجة إلى محلول كيميائي، ولا تصلح مادة واحدة لكل أنواع التلوث.\n\nقد يُستخدم الشطف العكسي لرديتر أو ثلاجة تدفئة مسدودة عندما تسمح تعليمات الصيانة بذلك، وبضغط وتدفق مناسبين للأجزاء الحساسة. لا يُفترض توصيل تدفق عكسي نابض إلى كامل دورة المحرك لكل سيارة.\n\nبعد التنظيف تُزال بقايا المادة والشوائب بالطريقة المعتمدة قبل تعبئة السائل الجديد، مع جمع السائل المستعمل والتخلص منه على نحو مناسب.",
+      "image": "/cooling-flush.webp",
+      "price": "",
+      "meta": "cooling-system-cleaning-guide",
+      "status": "published",
+      "position": 2,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "cooling-guide",
+      "kind": "article",
+      "title": "إشارات تستدعي فحص نظام التبريد",
+      "body": "ارتفاع مؤشر الحرارة أو نقص سائل التبريد المتكرر يستدعي فحص دورة التبريد. توقف في مكان آمن إذا ارتفعت الحرارة ولا تفتح غطاء الرديتر وهو ساخن.",
+      "image": "",
+      "price": "",
+      "meta": "",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "cooling-guide-inspect",
+      "kind": "article_section",
+      "title": "افحص السبب قبل التعويض المتكرر",
+      "body": "تعبئة السائل قد تساعد مؤقتًا، لكنها لا تعالج سبب النقص المتكرر. فحص الليات والوصلات والرديتر والغطاء بأجهزة مناسبة يساعد على تحديد موضع الخلل وخطوة الإصلاح.",
+      "image": "",
+      "price": "",
+      "meta": "cooling-guide",
+      "status": "published",
+      "position": 2,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "cooling-guide-safety",
+      "kind": "article_section",
+      "title": "إذا ارتفعت الحرارة، تصرّف بهدوء",
+      "body": "توقف في مكان آمن وأطفئ المحرك وفق إرشادات سيارتك. لا تفتح غطاء الرديتر أو خزان التمدد وهو ساخن؛ فقد يندفع سائل ساخن تحت الضغط.",
+      "image": "",
+      "price": "",
+      "meta": "cooling-guide",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "cooling-guide-signs",
+      "kind": "article_section",
+      "title": "انتبه إلى أول إشارة",
+      "body": "ارتفاع مؤشر الحرارة، أو تكرار نقص سائل التبريد، أو آثار تسرب أسفل السيارة إشارات تستحق فحص دورة التبريد. لاحظ متى تظهر المشكلة: عند الوقوف، أو أثناء السير، أو مع تشغيل المكيف.",
+      "image": "",
+      "price": "",
+      "meta": "cooling-guide",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "cooling-signs",
+      "kind": "article_section",
+      "title": "إشارات تستحق الفحص قبل ارتفاع الحرارة",
+      "body": "تغيّر غير معتاد في لون السائل، أو ظهور شوائب ورواسب في القربة، يستدعي فحص العينة ومصدر التلوث. لون الصبغة وحده لا يحدد نوع السائل ولا يكفي للحكم على صلاحيته.\n\nاستمرار المراوح في العمل بسرعة عالية أو تذبذب مؤشر الحرارة بين الوقوف والسير قد يرتبطان بعطل في أكثر من جزء؛ لذلك تُراجع القراءات والمراوح والرديتر ومستوى السائل بدل افتراض وجود انسداد.\n\nضعف تدفئة المقصورة شتاءً قد يدل على انخفاض السائل أو وجود هواء أو تقييد في ثلاجة التدفئة (Heater Core). وهي جزء مختلف عن ثلاجة المكيف.\n\nإذا ارتفعت حرارة المحرك، توقف في مكان آمن واتبع تعليمات سيارتك. لا تفتح غطاء الرديتر أو القربة المضغوطة والمحرك ساخن.",
+      "image": "",
+      "price": "",
+      "meta": "cooling-system-cleaning-guide",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "cooling-system-cleaning-guide",
+      "kind": "article",
+      "title": "متى تحتاج دورة تبريد سيارتك إلى التنظيف؟",
+      "body": "سائل التبريد ينقل الحرارة بعيدًا عن المحرك، وتساعد إضافاته على حماية أجزاء الدورة من التآكل. ومع الاستخدام الطويل أو اختيار سائل غير مناسب، قد تتراجع هذه الحماية أو تظهر رواسب وتسربات.\n\nلكن ارتفاع الحرارة لا يعني دائمًا أن الدورة تحتاج إلى غسيل. نبدأ بتحديد السبب: هل المشكلة في السائل، أم في تسرب، أو بلف حرارة، أو مروحة، أو جزء آخر؟",
+      "image": "/cooling-editorial.webp",
+      "price": "",
+      "meta": "cat-cooling",
+      "status": "published",
+      "position": 5,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "cooling-takeaway",
+      "kind": "article_section",
+      "title": "الصيانة الجيدة تبدأ بتحديد السبب",
+      "body": "التعامل المبكر مع التلوث أو نقص السائل أو ضعف التدفق قد يقلل خطر ارتفاع حرارة المحرك وتلف مكونات الدورة. لكن الغسيل الدوري وحده لا يضمن حماية مضخة الماء أو رأس المحرك إذا استمر تسرب أو تعطل مروحة أو بلف حرارة.\n\nاطلب فحصًا يوضح حالة السائل، وسبب العَرَض، ومواصفة البديل قبل الموافقة على تنظيف الدورة أو تعبئتها. بهذه الخطوة تصبح الصيانة مناسبة لسيارتك لا مجرد إجراء متكرر.",
+      "image": "",
+      "price": "",
+      "meta": "cooling-system-cleaning-guide",
+      "status": "published",
+      "position": 5,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "cooling-thermostat",
+      "kind": "article_section",
+      "title": "03 — بلف الحرارة والليات: افحص السبب المرتبط بهما",
+      "body": "يُنظَر إلى عمل بلف الحرارة (Thermostat) إذا دلت القراءات على تأخر وصول المحرك لحرارة التشغيل أو ارتفاعها بشكل غير طبيعي. تعليقه في وضع الفتح أو الإغلاق له أثر مختلف، وقد يحتاج البلف إلى استبدال بدل محاولة تنظيفه.\n\nتُفحص الليات والوصلات بحثًا عن التشقق أو الليونة الزائدة أو الانثناء أو الانسداد، وتُراجع مضخة الماء ومروحة التبريد عند الحاجة. معالجة السبب تحمي المنظومة من تكرار المشكلة بعد تغيير السائل.",
+      "image": "",
+      "price": "",
+      "meta": "cooling-system-cleaning-guide",
+      "status": "published",
+      "position": 3,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "deep-cleaning",
+      "kind": "service",
+      "title": "خدمات تنظيف سيارات الديزل",
+      "body": "باقة متكاملة للعناية بمسارات الهواء والوقود والعادم، مع الفحص والتهيئة المناسبة بحسب حالة السيارة ونوع محركها.",
+      "image": "/deep-cleaning-machine.webp",
+      "price": "تبدأ من 250 ريال",
+      "meta": "cat-engine",
+      "status": "published",
+      "position": 15,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "deep-cleaning-approved-feature-0",
+      "kind": "service_feature",
+      "title": "تنظيف التيربو وإزالة الترسبات الصعبة",
+      "body": "تنظيف الترسبات القابلة للإزالة في الأجزاء المناسبة من منظومة التيربو بعد تقييم حالتها وإمكانية الوصول إليها.",
+      "image": "/deep-cleaning-turbo.webp",
+      "price": "",
+      "meta": "deep-cleaning",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "deep-cleaning-approved-feature-1",
+      "kind": "service_feature",
+      "title": "تنظيف دبة البيئة",
+      "body": "اختيار وسيلة تنظيف ملائمة بعد تقييم حالة الدبة. التلف الداخلي أو الانصهار يحتاج معالجة تختلف عن التنظيف.",
+      "image": "/catalyst-editorial.webp",
+      "price": "",
+      "meta": "deep-cleaning",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "deep-cleaning-approved-feature-2",
+      "kind": "service_feature",
+      "title": "تنظيف حساس الأكسجين",
+      "body": "فحص الحساس وتنظيفه عندما تسمح حالته، ثم مراجعة عمله ضمن منظومة العادم.",
+      "image": "/catalyst-sensors.webp",
+      "price": "",
+      "meta": "deep-cleaning",
+      "status": "published",
+      "position": 2,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "deep-cleaning-approved-feature-3",
+      "kind": "service_feature",
+      "title": "تنظيف البخاخات وتنظيم الرش",
+      "body": "تنظيف بخاخات الديزل ومراجعة نمط الرش بحسب تصميم نظام الحقن وحالة البخاخات.",
+      "image": "/deep-cleaning-injectors.webp",
+      "price": "",
+      "meta": "deep-cleaning",
+      "status": "published",
+      "position": 3,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "deep-cleaning-approved-feature-4",
+      "kind": "service_feature",
+      "title": "تنظيف ثلاجة الماكينة",
+      "body": "تنظيف رواسب مجرى السحب بالطريقة التي يتيحها تصميم السيارة؛ يحدد الفحص الأجزاء التي يمكن الوصول إليها.",
+      "image": "/engine-tune-editorial.webp",
+      "price": "",
+      "meta": "deep-cleaning",
+      "status": "published",
+      "position": 4,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "deep-cleaning-approved-feature-5",
+      "kind": "service_feature",
+      "title": "تنظيف صمامات وبوابة الهواء",
+      "body": "تنظيف بوابة الهواء والأجزاء المناسبة من مسار السحب مع مراعاة حساسية المكونات الإلكترونية.",
+      "image": "/engine-tune-air.webp",
+      "price": "",
+      "meta": "deep-cleaning",
+      "status": "published",
+      "position": 5,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "deep-cleaning-approved-feature-6",
+      "kind": "service_feature",
+      "title": "فحص دبة البيئة بالكاميرا",
+      "body": "معاينة الدبة داخليًا بالكاميرا للمساعدة في تحديد حالة البطانة ومدى ملاءمة التنظيف.",
+      "image": "/catalytic-camera-offer.webp",
+      "price": "",
+      "meta": "deep-cleaning",
+      "status": "published",
+      "position": 6,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "deep-cleaning-approved-feature-7",
+      "kind": "service_feature",
+      "title": "برمجة السيارة",
+      "body": "إجراء التهيئة أو البرمجة المناسبة بعد الخدمة عند الحاجة وبحسب الأنظمة المتوافقة مع السيارة.",
+      "image": "/deep-cleaning-diagnostics.webp",
+      "price": "",
+      "meta": "deep-cleaning",
+      "status": "published",
+      "position": 7,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "deep-cleaning-approved-package-0",
+      "kind": "package",
+      "title": "سيارات 4 سلندر ديزل",
+      "body": "تشمل الأعمال الموضحة أعلاه وفق ملاءمة السيارة",
+      "image": "/deep-cleaning-machine.webp",
+      "price": "250 ريال",
+      "meta": "deep-cleaning",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "deep-cleaning-approved-package-1",
+      "kind": "package",
+      "title": "سيارات 6 سلندر ديزل",
+      "body": "تشمل الأعمال الموضحة أعلاه وفق ملاءمة السيارة",
+      "image": "/deep-cleaning-machine.webp",
+      "price": "300 ريال",
+      "meta": "deep-cleaning",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "deep-cleaning-extra-66",
+      "kind": "service_extra",
+      "title": "تنظيف EGR",
+      "body": "خدمة إضافية برسوم يحدد سعرها قبل التنفيذ.",
+      "image": "/deep-cleaning-egr.webp",
+      "price": "",
+      "meta": "deep-cleaning",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "deep-cleaning-four",
+      "kind": "package",
+      "title": "سيارات 4 سلندر",
+      "body": "تشمل أعمال التنظيف والفحص والبرمجة المذكورة في هذه الصفحة، وفق ملاءمة السيارة.",
+      "image": "/deep-cleaning-machine.webp",
+      "price": "250 ريال",
+      "meta": "deep-cleaning",
+      "status": "draft",
+      "position": 0,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "deep-cleaning-poster",
+      "kind": "service_poster",
+      "title": "عرض الخدمة المعتمد",
+      "body": "",
+      "image": "/approved-deep-cleaning.webp",
+      "price": "",
+      "meta": "deep-cleaning",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "deep-cleaning-six",
+      "kind": "package",
+      "title": "سيارات 6 سلندر ديزل",
+      "body": "تشمل أعمال التنظيف والفحص والبرمجة المذكورة في هذه الصفحة، وفق ملاءمة السيارة.",
+      "image": "/deep-cleaning-turbo.webp",
+      "price": "300 ريال",
+      "meta": "deep-cleaning",
+      "status": "draft",
+      "position": 1,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-flush",
+      "kind": "service",
+      "title": "غسيل الماكينة بالأجهزة",
+      "body": "تنظيف ممرات زيت المحرك من الرواسب باستخدام أجهزة مخصصة، ثم استبدال الزيت والفلتر وفق حالة المحرك ومواصفات السيارة.",
+      "image": "/oil-care-editorial.webp",
+      "price": "تبدأ من 50 ريال",
+      "meta": "cat-oils",
+      "status": "published",
+      "position": 10,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-flush-approved-feature-0",
+      "kind": "service_feature",
+      "title": "تنظيف ممرات الزيت",
+      "body": "إزالة الرواسب والملوثات القابلة للتنظيف من ممرات الزيت بعد تقييم حالة المحرك.",
+      "image": "/oil-care-editorial.webp",
+      "price": "",
+      "meta": "engine-flush",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-flush-approved-feature-1",
+      "kind": "service_feature",
+      "title": "تغيير الزيت والفلتر",
+      "body": "استبدال زيت المحرك والفلتر بالكامل بعد التنظيف. يوفرهما العميل، ويمكن الاستفسار عن المنتجات المتاحة لدى المركز.",
+      "image": "/oil-care-filter.webp",
+      "price": "",
+      "meta": "engine-flush",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-flush-approved-feature-2",
+      "kind": "service_feature",
+      "title": "عناية بالأجزاء الداخلية",
+      "body": "يساعد الزيت النظيف والمطابق للمواصفات على تقليل الاحتكاك ودعم كفاءة تشغيل المحرك.",
+      "image": "/engine-tune-editorial.webp",
+      "price": "",
+      "meta": "engine-flush",
+      "status": "published",
+      "position": 2,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-flush-approved-package-0",
+      "kind": "package",
+      "title": "الباقة الأساسية",
+      "body": "غسيل الماكينة\nغير شاملة مادة التنظيف\nالزيت والفلتر يوفرهما العميل",
+      "image": "/oil-care-editorial.webp",
+      "price": "50 ريال",
+      "meta": "engine-flush",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-flush-approved-package-1",
+      "kind": "package",
+      "title": "الباقة الشاملة",
+      "body": "غسيل الماكينة\nشاملة مادة التنظيف\nالزيت والفلتر يوفرهما العميل",
+      "image": "/oil-care-filter.webp",
+      "price": "100 ريال",
+      "meta": "engine-flush",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-flush-extra-8",
+      "kind": "service_extra",
+      "title": "تنظيف الشخال وفك الكرتير",
+      "body": "خدمات إضافية برسوم تُحدد قبل التنفيذ.",
+      "image": "",
+      "price": "",
+      "meta": "engine-flush",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-flush-note-9",
+      "kind": "service_note",
+      "title": "الزيوت والمواد المتاحة",
+      "body": "تتوفر زيوت ومواد تنظيف وفلاتر من عدة شركات عالمية بأسعار مختلفة.",
+      "image": "",
+      "price": "",
+      "meta": "engine-flush",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-flush-poster",
+      "kind": "service_poster",
+      "title": "عرض الخدمة المعتمد",
+      "body": "",
+      "image": "/approved-engine-flush.webp",
+      "price": "",
+      "meta": "engine-flush",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-head",
+      "kind": "service",
+      "title": "فحص رأس الماكينة",
+      "body": "فحص متخصص بأجهزة مخصصة لتقييم حالة رأس الماكينة",
+      "image": "",
+      "price": "50 ريال",
+      "meta": "",
+      "status": "draft",
+      "position": 6,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-oil",
+      "kind": "service",
+      "title": "تغيير زيت الماكينة",
+      "body": "تغيير الزيت والسيفون · فحص الإطارات · تنظيف فلتر الهواء · تنظيف الماكينة بالهواء",
+      "image": "",
+      "price": "أجور اليد 20 ريال",
+      "meta": "",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-oil-service-guide",
+      "kind": "article",
+      "title": "المنهج الصحيح لتغيير زيت المحرك ومنظومة التزييت",
+      "body": "زيت المحرك يقلل الاحتكاك ويحمل الشوائب إلى الفلتر، ويساعد على تبديد الحرارة وحماية الأجزاء المتحركة. وفي بعض المحركات يشارك ضغط الزيت في تشغيل أنظمة توقيت الصمامات المتغيرة.\n\nصيانة الزيت تبدأ بالمواصفة المناسبة وموعد التغيير، ثم تثبت صحتها بالمستوى الصحيح وعدم التسرب. لا يمكن الحكم على حالته من اللون وحده.",
+      "image": "/oil-care-editorial.webp",
+      "price": "",
+      "meta": "cat-oils",
+      "status": "published",
+      "position": 7,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-tune",
+      "kind": "service",
+      "title": "تصفية الماكينة · 4 سلندر ببخاخات خارجية",
+      "body": "باقتان لتنظيف مكونات الحقن والإشعال والهواء، مع الفحوصات والتهيئة الموضحة لكل باقة. نطاق العمل يحدد بحسب نوع البخاخات وتوافق السيارة.",
+      "image": "/deep-cleaning-injectors.webp",
+      "price": "تبدأ من 50 ريال",
+      "meta": "cat-engine",
+      "status": "published",
+      "position": 20,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-tune-air",
+      "kind": "article_section",
+      "title": "01 — مسار الهواء: قياس دقيق قبل أي تنظيف",
+      "body": "تُفحص بوابة الهواء (الثروتل) ومجرى السحب بحثًا عن الرواسب والتسربات، وتُنظف البوابة بالطريقة والمواد المناسبة لتصميمها، مع الحرص على عدم إتلاف سطحها أو أجزائها الحساسة.\n\nإذا أظهرت القراءة حاجة حساس تدفق الهواء (MAF) إلى التنظيف، يُستخدم منظف مخصص سريع التبخر دون لمس عنصر القياس. الهدف استعادة قراءة هواء دقيقة والمساعدة على ثبات دوران المحرك.",
+      "image": "/engine-tune-air.webp",
+      "price": "",
+      "meta": "engine-tune-guide",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-tune-approved-feature-0",
+      "kind": "service_feature",
+      "title": "العناية بالبخاخات",
+      "body": "تنظيف البخاخات بالجهاز وبتقنية الألترا سونيك ضمن الباقتين.",
+      "image": "/deep-cleaning-injectors.webp",
+      "price": "",
+      "meta": "engine-tune",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-tune-approved-feature-1",
+      "kind": "service_feature",
+      "title": "مسارات الهواء والإشعال",
+      "body": "الباقة الفضية تشمل أعمال تنظيف البوابة والحساسات والكويلات والبواجي الموضحة في قائمتها.",
+      "image": "/engine-tune-ignition.webp",
+      "price": "",
+      "meta": "engine-tune",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-tune-approved-feature-2",
+      "kind": "service_feature",
+      "title": "الفحص والتهيئة",
+      "body": "الباقة الفضية تشمل فحص السوائل المذكورة، وفحص الأكواد ومسحها، وفحص دبة البيئة بالكاميرا، وبرمجة الثروتل.",
+      "image": "/deep-cleaning-diagnostics.webp",
+      "price": "",
+      "meta": "engine-tune",
+      "status": "published",
+      "position": 2,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-tune-approved-package-0",
+      "kind": "package",
+      "title": "الباقة الأساسية",
+      "body": "تنظيف البخاخات بالجهاز\nتنظيف البخاخات بتقنية الألترا سونيك\nبرمجة السيارة",
+      "image": "/deep-cleaning-injectors.webp",
+      "price": "50 ريال",
+      "meta": "engine-tune",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-tune-approved-package-1",
+      "kind": "package",
+      "title": "الباقة الفضية",
+      "body": "تنظيف البخاخات بالجهاز\nتنظيف البخاخات بتقنية الألترا سونيك\nتنظيف البوابة\nتنظيف الكويلات\nتنظيف حساس VVT\nتنظيف حساس العامود\nتنظيف حساس الهواء MAF\nتنظيف حساس الهواء MAP\nتنظيف ربلات البخاخات\nتنظيف جلد الكويلات\nتنظيف البواجي\nتنظيف حساس الأكسجين\nتنظيف فلتر الهواء\nفحص زيت الماكينة بالجهاز\nفحص زيت الفرامل بالجهاز\nفحص ماء الرديتر بالجهاز\nفحص زيت الدركسون بالجهاز\nبرمجة البوابة (الثروتل)\nفحص الأكواد ومسحها بالكمبيوتر\nفحص دبة البيئة بالكاميرا",
+      "image": "/engine-tune-editorial.webp",
+      "price": "120 ريال",
+      "meta": "engine-tune",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-tune-carbon",
+      "kind": "article_section",
+      "title": "04 — الكربون والتعلّم الإلكتروني: الخطوة الأخيرة",
+      "body": "إذا كشف الفحص عن ترسبات مؤثرة، تُختار طريقة تنظيف صمامات السحب أو أجزاء مجرى الاحتراق بحسب تصميم المحرك وموضع الرواسب. لا تتطلب كل سيارة إزالة التكلسات أو تفكيك المكونات.\n\nبعد إصلاح السبب، قد تحتاج بعض السيارات إلى إعادة تعلّم وضع الخمول أو قيم الوقود وفق إجراء الشركة المصنعة. تصفير القيم ليس خطوة تلقائية لكل سيارة، ولا يغني عن التأكد من زوال العطل.",
+      "image": "",
+      "price": "",
+      "meta": "engine-tune-guide",
+      "status": "published",
+      "position": 4,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-tune-extra-105",
+      "kind": "service_extra",
+      "title": "أعمال إضافية حسب حالة السيارة",
+      "body": "تنظيف غرفة الاحتراق · تنظيف EGR · تنظيف التيربو · تنظيف بلف تبخير البنزين · تغيير صفاية البنزين · تغيير وجه غطاء البلوف · تنظيف الثلاجة بالجهاز أو بالفك حسب السيارة",
+      "image": "/deep-cleaning-egr.webp",
+      "price": "",
+      "meta": "engine-tune",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-tune-fuel",
+      "kind": "article_section",
+      "title": "02 — حواقن الوقود: هل الرش متوازن؟",
+      "body": "عندما يشير الفحص إلى مشكلة في البخاخات، يمكن اختبار نمط الرش وتوازن التدفق والتسرب وفق نوع نظام الحقن. وبعد ذلك يُختار التنظيف المناسب، بما فيه الموجات فوق الصوتية للبخاخات التي تلائمها هذه الطريقة.\n\nانتظام الرش يساعد على مزج الوقود بالهواء كما ينبغي. أما ضعف الرش أو تقطيره فقد يرتبط بتقطيع الأداء واستهلاك وقود أعلى؛ وتؤكد المقارنة قبل الخدمة وبعدها نتيجة التدخل.",
+      "image": "",
+      "price": "",
+      "meta": "engine-tune-guide",
+      "status": "published",
+      "position": 2,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-tune-guide",
+      "kind": "article",
+      "title": "متى يحتاج محرك سيارتك إلى التصفية الشاملة؟",
+      "body": "قبل أن تظهر لمبة فحص المحرك، قد تلاحظ أن السيارة لم تعد تستجيب كما اعتدت. أحيانًا تبدأ القصة بتردد بسيط عند التسارع، أو اهتزاز خفيف عند التوقف.\n\nهذه الإشارات تستحق فحصًا منظمًا، لكنها لا تثبت وحدها أن المحرك يحتاج إلى كل خطوات التصفية. التشخيص هو ما يحدد الجزء الذي يحتاج إلى تدخل.",
+      "image": "/engine-tune-editorial.webp",
+      "price": "",
+      "meta": "cat-engine",
+      "status": "published",
+      "position": 2,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-tune-ignition",
+      "kind": "article_section",
+      "title": "03 — الإشعال: شرارة مناسبة تحت الحمل",
+      "body": "تُفحص شمعات الإشعال ونوعها وحالتها وخلوصها حسب مواصفات السيارة. إذا استدعى النوع ضبط الخلوص، يُستخدم أسلوب لا يضر القطب الدقيق؛ وعند التركيب يُراعى عزم الشد الموصى به.\n\nتُفحص الكويلات وعوازلها بحثًا عن آثار تهريب الجهد أو التلف. ويُستخدم شحم عازل مناسب فقط في المواضع التي توصي بها تعليمات الصيانة، بعد معالجة سبب الخلل.",
+      "image": "/engine-tune-ignition.webp",
+      "price": "",
+      "meta": "engine-tune-guide",
+      "status": "published",
+      "position": 3,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-tune-internal",
+      "kind": "service",
+      "title": "تصفية الماكينة · بخاخات داخلية و6 سلندر",
+      "body": "باقتان لتنظيف مكونات الحقن والإشعال والهواء، مع الفحوصات والتهيئة الموضحة لكل باقة. نطاق العمل يحدد بحسب نوع البخاخات وتوافق السيارة.",
+      "image": "/deep-cleaning-injectors.webp",
+      "price": "تبدأ من 100 ريال",
+      "meta": "cat-engine",
+      "status": "published",
+      "position": 21,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-tune-internal-approved-feature-0",
+      "kind": "service_feature",
+      "title": "العناية بالبخاخات",
+      "body": "تنظيف البخاخات بالجهاز وبتقنية الألترا سونيك ضمن الباقتين.",
+      "image": "/deep-cleaning-injectors.webp",
+      "price": "",
+      "meta": "engine-tune-internal",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-tune-internal-approved-feature-1",
+      "kind": "service_feature",
+      "title": "مسارات الهواء والإشعال",
+      "body": "الباقة الفضية تشمل أعمال تنظيف البوابة والحساسات والكويلات والبواجي الموضحة في قائمتها.",
+      "image": "/engine-tune-ignition.webp",
+      "price": "",
+      "meta": "engine-tune-internal",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-tune-internal-approved-feature-2",
+      "kind": "service_feature",
+      "title": "الفحص والتهيئة",
+      "body": "الباقة الفضية تشمل فحص السوائل المذكورة، وفحص الأكواد ومسحها، وفحص دبة البيئة بالكاميرا، وبرمجة الثروتل.",
+      "image": "/deep-cleaning-diagnostics.webp",
+      "price": "",
+      "meta": "engine-tune-internal",
+      "status": "published",
+      "position": 2,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-tune-internal-approved-package-0",
+      "kind": "package",
+      "title": "الباقة الأساسية",
+      "body": "تنظيف البخاخات بالجهاز\nتنظيف البخاخات بتقنية الألترا سونيك\nبرمجة السيارة",
+      "image": "/deep-cleaning-injectors.webp",
+      "price": "100 ريال",
+      "meta": "engine-tune-internal",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-tune-internal-approved-package-1",
+      "kind": "package",
+      "title": "الباقة الفضية",
+      "body": "تنظيف البخاخات بالجهاز\nتنظيف البخاخات بتقنية الألترا سونيك\nتنظيف البوابة\nتنظيف الكويلات\nتنظيف حساس VVT\nتنظيف حساس العامود\nتنظيف حساس الهواء MAF\nتنظيف حساس الهواء MAP\nتنظيف ربلات البخاخات\nتنظيف جلد الكويلات\nتنظيف البواجي\nتنظيف ثلاجة الماكينة\nتنظيف حساس الأكسجين\nتنظيف فلتر الهواء\nفحص زيت الماكينة بالجهاز\nفحص زيت الفرامل بالجهاز\nفحص ماء الرديتر بالجهاز\nفحص زيت الدركسون بالجهاز\nبرمجة البوابة (الثروتل)\nفحص الأكواد ومسحها بالكمبيوتر\nفحص دبة البيئة بالكاميرا",
+      "image": "/engine-tune-editorial.webp",
+      "price": "240 ريال",
+      "meta": "engine-tune-internal",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-tune-internal-extra-114",
+      "kind": "service_extra",
+      "title": "أعمال إضافية حسب حالة السيارة",
+      "body": "تنظيف غرفة الاحتراق · تنظيف EGR · تنظيف التيربو · تنظيف بلف تبخير البنزين · تغيير صفاية البنزين · تغيير وجه غطاء البلوف",
+      "image": "/deep-cleaning-egr.webp",
+      "price": "",
+      "meta": "engine-tune-internal",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-tune-internal-note-115",
+      "kind": "service_note",
+      "title": "قطع الغيار غير مشمولة",
+      "body": "العرض يشمل التنظيف فقط ولا يشمل قطع الغيار. يوفر العميل البواجي وجلد البخاخات وجلد الكويلات وفلتر الهواء وفلتر المكيف، وتُغيّر بناءً على طلبه. بعض السيارات لا ينطبق عليها فك الثلاجة وتُنظف بالجهاز.",
+      "image": "",
+      "price": "",
+      "meta": "engine-tune-internal",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-tune-internal-poster",
+      "kind": "service_poster",
+      "title": "عرض الخدمة المعتمد",
+      "body": "",
+      "image": "/approved-engine-tune-internal.webp",
+      "price": "",
+      "meta": "engine-tune-internal",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-tune-note-106",
+      "kind": "service_note",
+      "title": "قطع الغيار غير مشمولة",
+      "body": "العرض يشمل التنظيف فقط ولا يشمل قطع الغيار. يوفر العميل البواجي وجلد البخاخات وجلد الكويلات وفلتر الهواء وفلتر المكيف، وتُغيّر بناءً على طلبه.",
+      "image": "",
+      "price": "",
+      "meta": "engine-tune",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-tune-outcome",
+      "kind": "article_section",
+      "title": "التصفية الصحيحة تبدأ بالفحص وتنتهي بالتحقق",
+      "body": "التصفية الشاملة ليست قائمة أعمال ثابتة تُنفذ على كل محرك. نحدد ما تحتاجه السيارة من نتائج الفحص، ثم نتحقق من سلاسة الأداء واستقرار الخمول بعد الخدمة.\n\nالاهتمام المبكر بالأعراض قد يحد من تفاقم المشكلة، لكن استعادة العزم أو خفض استهلاك الوقود تتوقف على السبب الفعلي وحالة السيارة. اطلب تشخيصًا واضحًا قبل الموافقة على أي إجراء.",
+      "image": "",
+      "price": "",
+      "meta": "engine-tune-guide",
+      "status": "published",
+      "position": 5,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-tune-poster",
+      "kind": "service_poster",
+      "title": "عرض الخدمة المعتمد",
+      "body": "",
+      "image": "/approved-engine-tune.webp",
+      "price": "",
+      "meta": "engine-tune",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "engine-tune-signs",
+      "kind": "article_section",
+      "title": "الإشارات: ماذا تلاحظ أثناء القيادة؟",
+      "body": "ثقل أو تردد في استجابة دواسة الوقود، خصوصًا عند التسارع أو صعود المرتفعات.\n\nتذبذب دورات المحرك (RPM) أو اهتزاز محسوس في المقود ومقصورة القيادة أثناء الوقوف في وضع الخمول.\n\nزيادة تدريجية في استهلاك الوقود رغم ثبات مسارات القيادة، أو تأخر التشغيل صباحًا وبعد التوقف القصير.\n\nقد تنتج هذه الأعراض أيضًا عن أعطال أخرى؛ لذلك نبدأ بقراءة بيانات السيارة وفحصها قبل اتخاذ قرار التنظيف أو استبدال أي قطعة.",
+      "image": "",
+      "price": "",
+      "meta": "engine-tune-guide",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "fast-zone-services",
+      "kind": "catalog",
+      "title": "كتالوج خدمات فاست زون",
+      "body": "تصفح خدمات المركز وباقاته في كتالوج من 15 صفحة.",
+      "image": "/catalogs/fast-zone-services-cover.webp",
+      "price": "",
+      "meta": "/catalogs/fast-zone-services.pdf",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "head-check",
+      "kind": "service_feature",
+      "title": "فحص رأس الماكينة",
+      "body": "تقييم حالة رأس الماكينة باستخدام أجهزة فحص متخصصة.",
+      "image": "",
+      "price": "",
+      "meta": "engine-head",
+      "status": "published",
+      "position": 21,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "oil-air",
+      "kind": "service_feature",
+      "title": "تنظيف فلتر الهواء والماكينة بالهواء",
+      "body": "تنظيف فلتر الهواء والماكينة بالهواء كما هو مذكور ضمن الخدمة.",
+      "image": "/engine-tune-air.webp",
+      "price": "",
+      "meta": "engine-oil",
+      "status": "published",
+      "position": 11,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "oil-change",
+      "kind": "service_feature",
+      "title": "تغيير الزيت والسيفون",
+      "body": "تغيير الزيت وفلتره وفق مواصفات السيارة؛ أجور اليد المعلنة 20 ريال.",
+      "image": "/oil-care-filter.webp",
+      "price": "",
+      "meta": "engine-oil",
+      "status": "published",
+      "position": 9,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "oil-drain",
+      "kind": "article_section",
+      "title": "02 — تفريغ آمن وفحص ما يظهر أثناء الخدمة",
+      "body": "يُفرغ الزيت وفق إجراء الصيانة والمحرك دافئ بدرجة تسمح بالعمل الآمن، مع تجميع السائل المستعمل. تُفحص صرة التصريف وقلاوظها ووردة الإحكام، وتُستبدل الوردة إن نصت تعليمات القطعة على ذلك.\n\nوجود برادة معدنية واضحة أو شذوذ ملحوظ في الزيت يستدعي تشخيصًا؛ لا تحتوي كل سيارة على مغناطيس في الصرة، ولا تكشف معاينة الزيت وحدها عن حالة السبايك والكامات بدقة.",
+      "image": "",
+      "price": "",
+      "meta": "engine-oil-service-guide",
+      "status": "published",
+      "position": 2,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "oil-filter",
+      "kind": "article_section",
+      "title": "03 — فلتر مناسب وإحكام بلا تسرب",
+      "body": "يُختار فلتر مطابق لمواصفات المحرك، مع تركيب جلدة الإحكام وشد الفلتر حسب التعليمات. يختلف تصميم الصمامات الداخلية بين الفلاتر؛ لا يحتوي كل فلتر على صمام منع رجوع، ولا ينبغي افتراض أن وجوده يلغي كل صوت تشغيل بارد.\n\nبعد التشغيل يُراجع موضع الفلتر والصرة للتأكد من عدم وجود تسرب، ثم يُفحص المستوى بالطريقة المحددة للسيارة.",
+      "image": "/oil-care-filter.webp",
+      "price": "",
+      "meta": "engine-oil-service-guide",
+      "status": "published",
+      "position": 3,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "oil-finish",
+      "kind": "article_section",
+      "title": "تغيير الزيت الصحيح خدمة للمحرك كله",
+      "body": "الالتزام بمواصفة الزيت وموعد التغيير ومراجعة المستوى يساعد على حماية المحرك، بينما تستدعي أصوات التشغيل وتحذيرات الضغط تشخيصًا مستقلًا بدل اعتبار تغيير الزيت علاجًا مضمونًا لها.",
+      "image": "",
+      "price": "",
+      "meta": "engine-oil-service-guide",
+      "status": "published",
+      "position": 5,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "oil-guide",
+      "kind": "article",
+      "title": "متى تحتاج سيارتك إلى فحص الزيت؟",
+      "body": "فحص مستوى الزيت وحالته بانتظام يساعدك على ملاحظة أي تغير مبكر. اتبع توصية الشركة المصنعة لنوع الزيت وفترة التغيير.",
+      "image": "",
+      "price": "",
+      "meta": "",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "oil-guide-check",
+      "kind": "article_section",
+      "title": "ابدأ بمستوى الزيت",
+      "body": "افحص المستوى والسيارة على سطح مستوٍ، واتبع طريقة القياس الموصى بها لسيارتك. إذا لاحظت انخفاضًا متكررًا، دوّن وقت الفحص ومقدار النقص لمساعدة الفني في التشخيص.",
+      "image": "",
+      "price": "",
+      "meta": "oil-guide",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "oil-guide-condition",
+      "kind": "article_section",
+      "title": "لاحظ ما يتغير، لا اللون وحده",
+      "body": "انتبه لأي تسرب ظاهر، أو رائحة غير معتادة، أو تحذير على لوحة العدادات. لون الزيت وحده لا يحدد دائمًا صلاحيته؛ المرجع الأفضل هو مواصفات الشركة وجدول الصيانة وحالة السيارة.",
+      "image": "",
+      "price": "",
+      "meta": "oil-guide",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "oil-guide-next",
+      "kind": "article_section",
+      "title": "الخطوة التالية واضحة",
+      "body": "راجع دليل السيارة لنوع الزيت وفترة تغييره. إذا ظهر تحذير ضغط الزيت أثناء القيادة، توقف في مكان آمن وأطفئ المحرك، ثم اطلب فحصًا قبل متابعة السير.",
+      "image": "",
+      "price": "",
+      "meta": "oil-guide",
+      "status": "published",
+      "position": 2,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "oil-level",
+      "kind": "article_section",
+      "title": "04 — اضبط المستوى وسجل موعد الخدمة",
+      "body": "تُضاف الكمية الموصى بها مع مراعاة سعة الفلتر وتُضبط بين علامتي القياس أو وفق القراءة الإلكترونية المعتمدة؛ الزيادة أو النقصان قد يضران بالتزييت.\n\nيُصفَّر مؤشر عمر الزيت إن كانت السيارة مزودة به، ويُسجل نوع الزيت وتاريخ التغيير والمسافة. إعادة ضبط المؤشر لا تغني عن التأكد من المستوى وعدم وجود تسرب.",
+      "image": "",
+      "price": "",
+      "meta": "engine-oil-service-guide",
+      "status": "published",
+      "position": 4,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "oil-signs",
+      "kind": "article_section",
+      "title": "متى يحتاج المحرك إلى فحص فوري؟",
+      "body": "صوت غير معتاد عند التشغيل، أو نقص متكرر في المستوى، أو تكتل واضح في الزيت يستدعي فحص السبب. قد يظهر بعض تغير اللون طبيعيًا، لذلك تُراجع توصية المصنع والتاريخ والاستخدام.\n\nإذا أضاء تحذير ضغط الزيت أثناء تشغيل المحرك، توقف في مكان آمن وأطفئه واتبع دليل السيارة؛ لا تواصل القيادة اعتمادًا على تغيير الزيت فقط.",
+      "image": "",
+      "price": "",
+      "meta": "engine-oil-service-guide",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "oil-spec",
+      "kind": "article_section",
+      "title": "01 — المواصفة أولًا، ثم درجة اللزوجة",
+      "body": "تحقق من درجة اللزوجة والاعتماد المطلوبين في دليل السيارة؛ فكتابة 0W-20 أو 5W-30 وحدها لا تكفي. بعض المحركات الحديثة، ومنها فئات الحقن المباشر والتوربو، تحتاج مواصفات تراعي ظواهر مثل الاشتعال المبكر عند السرعات المنخفضة (LSPI).\n\nمن التصنيفات المتاحة API SP وILSAC GF-6، كما طُرح API SQ وILSAC GF-7 في 2025. يُختار التصنيف الذي يلبي متطلبات المحرك الفعلية واعتمادات الشركة، لا الأحدث لمجرد أنه أحدث.",
+      "image": "",
+      "price": "",
+      "meta": "engine-oil-service-guide",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "oil-tires",
+      "kind": "service_feature",
+      "title": "فحص الإطارات",
+      "body": "فحص حالة الإطارات ضمن الخدمة.",
+      "image": "/preventive-care-suspension.webp",
+      "price": "",
+      "meta": "engine-oil",
+      "status": "published",
+      "position": 10,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "petrol-cleaning",
+      "kind": "service",
+      "title": "خدمات تنظيف سيارات البنزين",
+      "body": "باقة متكاملة للعناية بمسارات الهواء والوقود والعادم، مع الفحص والتهيئة المناسبة بحسب حالة السيارة ونوع محركها.",
+      "image": "/deep-cleaning-machine.webp",
+      "price": "تبدأ من 200 ريال",
+      "meta": "cat-engine",
+      "status": "published",
+      "position": 14,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "petrol-cleaning-approved-feature-0",
+      "kind": "service_feature",
+      "title": "تنظيف الثروتل (بوابة الهواء)",
+      "body": "تنظيف الرواسب حول بوابة الهواء بالطريقة المناسبة لتصميمها، مع حماية الأجزاء الإلكترونية الحساسة.",
+      "image": "/engine-tune-air.webp",
+      "price": "",
+      "meta": "petrol-cleaning",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "petrol-cleaning-approved-feature-1",
+      "kind": "service_feature",
+      "title": "تنظيف حساس MAF",
+      "body": "العناية بحساس قياس تدفق الهواء بوسيلة تنظيف ملائمة له، مع تجنب لمس عنصر القياس الحساس.",
+      "image": "/engine-tune-air.webp",
+      "price": "",
+      "meta": "petrol-cleaning",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "petrol-cleaning-approved-feature-2",
+      "kind": "service_feature",
+      "title": "تنظيف حساس MAP",
+      "body": "تنظيف حساس ضغط مجرى السحب عندما تسمح حالته، ومراجعة استجابته ضمن تقييم منظومة الهواء.",
+      "image": "/engine-tune-air.webp",
+      "price": "",
+      "meta": "petrol-cleaning",
+      "status": "published",
+      "position": 2,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "petrol-cleaning-approved-feature-3",
+      "kind": "service_feature",
+      "title": "تنظيف ثلاجة الماكينة",
+      "body": "تنظيف رواسب مجرى السحب بالطريقة التي يتيحها تصميم السيارة؛ يحدد الفحص الأجزاء التي يمكن الوصول إليها.",
+      "image": "/engine-tune-editorial.webp",
+      "price": "",
+      "meta": "petrol-cleaning",
+      "status": "published",
+      "position": 3,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "petrol-cleaning-approved-feature-4",
+      "kind": "service_feature",
+      "title": "تنظيف البخاخات",
+      "body": "تنظيف البخاخات بحسب نوع نظام الحقن وتجهيزات السيارة، للعناية بنمط رش الوقود.",
+      "image": "/deep-cleaning-injectors.webp",
+      "price": "",
+      "meta": "petrol-cleaning",
+      "status": "published",
+      "position": 4,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "petrol-cleaning-approved-feature-5",
+      "kind": "service_feature",
+      "title": "تنظيف دبة البيئة",
+      "body": "اختيار وسيلة تنظيف ملائمة بعد تقييم حالة الدبة. التلف الداخلي أو الانصهار يحتاج معالجة تختلف عن التنظيف.",
+      "image": "/catalyst-editorial.webp",
+      "price": "",
+      "meta": "petrol-cleaning",
+      "status": "published",
+      "position": 5,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "petrol-cleaning-approved-feature-6",
+      "kind": "service_feature",
+      "title": "تنظيف حساس الأكسجين",
+      "body": "فحص الحساس وتنظيفه عندما تسمح حالته، ثم مراجعة عمله ضمن منظومة العادم.",
+      "image": "/catalyst-sensors.webp",
+      "price": "",
+      "meta": "petrol-cleaning",
+      "status": "published",
+      "position": 6,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "petrol-cleaning-approved-feature-7",
+      "kind": "service_feature",
+      "title": "تنظيف البواجي وأسلاكها",
+      "body": "العناية بالبواجي وأسلاك الإشعال الموجودة في السيارات المناسبة لهذه الخدمة؛ لا تنطبق على كل السيارات.",
+      "image": "/engine-tune-ignition.webp",
+      "price": "",
+      "meta": "petrol-cleaning",
+      "status": "published",
+      "position": 7,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "petrol-cleaning-approved-feature-8",
+      "kind": "service_feature",
+      "title": "فحص دبة البيئة بالكاميرا",
+      "body": "معاينة الدبة داخليًا بالكاميرا للمساعدة في تحديد حالة البطانة ومدى ملاءمة التنظيف.",
+      "image": "/catalytic-camera-offer.webp",
+      "price": "",
+      "meta": "petrol-cleaning",
+      "status": "published",
+      "position": 8,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "petrol-cleaning-approved-feature-9",
+      "kind": "service_feature",
+      "title": "برمجة السيارة",
+      "body": "إجراء التهيئة أو البرمجة المناسبة بعد الخدمة عند الحاجة وبحسب الأنظمة المتوافقة مع السيارة.",
+      "image": "/deep-cleaning-diagnostics.webp",
+      "price": "",
+      "meta": "petrol-cleaning",
+      "status": "published",
+      "position": 9,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "petrol-cleaning-approved-package-0",
+      "kind": "package",
+      "title": "سيارات 4 سلندر بنزين",
+      "body": "تشمل الأعمال الموضحة أعلاه وفق ملاءمة السيارة",
+      "image": "/deep-cleaning-machine.webp",
+      "price": "200 ريال",
+      "meta": "petrol-cleaning",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "petrol-cleaning-approved-package-1",
+      "kind": "package",
+      "title": "سيارات 6 سلندر بنزين",
+      "body": "تشمل الأعمال الموضحة أعلاه وفق ملاءمة السيارة",
+      "image": "/deep-cleaning-machine.webp",
+      "price": "250 ريال",
+      "meta": "petrol-cleaning",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "petrol-cleaning-approved-package-2",
+      "kind": "package",
+      "title": "سيارات 8 سلندر بنزين",
+      "body": "تشمل الأعمال الموضحة أعلاه وفق ملاءمة السيارة",
+      "image": "/deep-cleaning-machine.webp",
+      "price": "300 ريال",
+      "meta": "petrol-cleaning",
+      "status": "published",
+      "position": 2,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "petrol-cleaning-note-53",
+      "kind": "service_note",
+      "title": "ملاحظة مهمة",
+      "body": "الخدمات لا تشمل الفك. تنظيف البواجي وأسلاكها لا ينطبق على كل السيارات.",
+      "image": "",
+      "price": "",
+      "meta": "petrol-cleaning",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "petrol-cleaning-poster",
+      "kind": "service_poster",
+      "title": "عرض الخدمة المعتمد",
+      "body": "",
+      "image": "/approved-petrol-cleaning.webp",
+      "price": "",
+      "meta": "petrol-cleaning",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "pkg-catalytic-check",
+      "kind": "package",
+      "title": "باقة الفحص بالكاميرا",
+      "body": "فحص دبة البيئة الواحدة بكاميرا خاصة.\nتنظيف حساس الأكسجين.",
+      "image": "/catalytic-camera-offer.webp",
+      "price": "30 ريال",
+      "meta": "catalytic",
+      "status": "draft",
+      "position": 0,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "pkg-catalytic-foam-cn",
+      "kind": "package",
+      "title": "باقة الرغوة · منظف صناعة صينية",
+      "body": "تنظيف دبة البيئة بالرغوة المخصصة.\nحقن الرغوة بدقة داخل دبة البيئة.\nتنظيف حساس الشكمان.",
+      "image": "/catalytic-foam-offer.webp",
+      "price": "50 ريال",
+      "meta": "catalytic",
+      "status": "draft",
+      "position": 2,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "pkg-catalytic-foam-de",
+      "kind": "package",
+      "title": "باقة الرغوة · منظف صناعة ألمانية",
+      "body": "تنظيف دبة البيئة بالرغوة المخصصة.\nحقن الرغوة بدقة داخل دبة البيئة.\nتنظيف حساس الشكمان.",
+      "image": "/catalytic-foam-offer.webp",
+      "price": "80 ريال",
+      "meta": "catalytic",
+      "status": "draft",
+      "position": 3,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "pkg-catalytic-vapor",
+      "kind": "package",
+      "title": "باقة التنظيف بالتبخير · سيارات البنزين",
+      "body": "تنظيف دبة البيئة بالجهاز والمواد المخصصة.\nالحقن بمادة ألمانية فاخرة بالتبخير عبر الجهاز.\nتنظيف حساس الشكمان.",
+      "image": "/catalytic-vapor-offer.webp",
+      "price": "80 ريال",
+      "meta": "catalytic",
+      "status": "draft",
+      "position": 1,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "pkg-radiator-exterior-basic",
+      "kind": "package",
+      "title": "الليات الخارجية · الأساسية",
+      "body": "تنظيف الليات الخارجية وفحص دورة التبريد. جميع الباقات غير شاملة سائل التبريد.",
+      "image": "",
+      "price": "50 ريال",
+      "meta": "radiator",
+      "status": "draft",
+      "position": 0,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "pkg-radiator-exterior-complete",
+      "kind": "package",
+      "title": "الليات الخارجية · الشاملة",
+      "body": "تنظيف شامل لليات التبريد الخارجية مع منظف رديتر stop أمريكي. لا تشمل سائل التبريد.",
+      "image": "",
+      "price": "100 ريال",
+      "meta": "radiator",
+      "status": "draft",
+      "position": 1,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "pkg-radiator-interior-basic",
+      "kind": "package",
+      "title": "الليات الداخلية والهايبرد والسيارات الكبيرة · الأساسية",
+      "body": "خدمة دورة التبريد الداخلية. جميع الباقات غير شاملة سائل التبريد.",
+      "image": "",
+      "price": "100 ريال",
+      "meta": "radiator",
+      "status": "draft",
+      "position": 2,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "pkg-radiator-interior-complete",
+      "kind": "package",
+      "title": "الليات الداخلية والهايبرد والسيارات الكبيرة · الشاملة",
+      "body": "تنظيف شامل مع منظف رديتر stop أمريكي. لا تشمل سائل التبريد.",
+      "image": "",
+      "price": "150 ريال",
+      "meta": "radiator",
+      "status": "draft",
+      "position": 3,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "preventive-car-care-guide",
+      "kind": "article",
+      "title": "دليلك للعناية الوقائية بالسيارة",
+      "body": "العناية بالسيارة ليست انتظار العطل ثم إصلاحه. فحص بسيط في موعده قد يكشف تسربًا أو تآكلًا قبل أن يؤثر في يومك وسلامة قيادتك.\n\nالجدول الأفضل لا ينسخ رقمًا واحدًا لكل السيارات؛ بل يجمع توصيات الصانع مع عمر المركبة وطريقة قيادتها وظروف المناخ.",
+      "image": "/preventive-care-editorial.webp",
+      "price": "",
+      "meta": "cat-engine",
+      "status": "published",
+      "position": 8,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "radiator",
+      "kind": "service",
+      "title": "تنظيف الرديتر بالأجهزة",
+      "body": "تنظيف الرديتر وإزالة الرواسب والشوائب وتجديد سائل التبريد، ضمن باقات تختلف بحسب مسارات الدورة ونوع السيارة.",
+      "image": "/cooling-editorial.webp",
+      "price": "تبدأ من 50 ريال",
+      "meta": "cat-cooling",
+      "status": "published",
+      "position": 12,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "radiator-approved-feature-0",
+      "kind": "service_feature",
+      "title": "إزالة الرواسب والشوائب",
+      "body": "تنظيف الرواسب القابلة للإزالة بالطريقة المناسبة للرديتر ودورة التبريد.",
+      "image": "/cooling-flush.webp",
+      "price": "",
+      "meta": "radiator",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "radiator-approved-feature-1",
+      "kind": "service_feature",
+      "title": "تجديد سائل التبريد",
+      "body": "استبدال السائل واختيار النوع والتركيز المطابقين لمواصفات السيارة.",
+      "image": "/cooling-fill.webp",
+      "price": "",
+      "meta": "radiator",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "radiator-approved-feature-2",
+      "kind": "service_feature",
+      "title": "دعم كفاءة التبريد",
+      "body": "يساعد تنظيف المسارات وتجديد السائل المناسب على حماية المنظومة من التآكل ودعم انتقال الحرارة.",
+      "image": "/cooling-editorial.webp",
+      "price": "",
+      "meta": "radiator",
+      "status": "published",
+      "position": 2,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "radiator-approved-package-0",
+      "kind": "package",
+      "title": "الليات الخارجية · الأساسية",
+      "body": "استبدال سائل التبريد\nغير شاملة سائل التبريد",
+      "image": "/cooling-fill.webp",
+      "price": "50 ريال",
+      "meta": "radiator",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "radiator-approved-package-1",
+      "kind": "package",
+      "title": "الليات الخارجية · الشاملة",
+      "body": "تنظيف الرديتر وتبديل السائل\nمنظف رديتر STOP أمريكي\nغير شاملة سائل التبريد",
+      "image": "/cooling-flush.webp",
+      "price": "100 ريال",
+      "meta": "radiator",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "radiator-approved-package-2",
+      "kind": "package",
+      "title": "الليات الداخلية والهايبرد والسيارات الكبيرة · الأساسية",
+      "body": "استبدال سائل التبريد\nغير شاملة سائل التبريد",
+      "image": "/cooling-fill.webp",
+      "price": "100 ريال",
+      "meta": "radiator",
+      "status": "published",
+      "position": 2,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "radiator-approved-package-3",
+      "kind": "package",
+      "title": "الليات الداخلية والهايبرد والسيارات الكبيرة · الشاملة",
+      "body": "تنظيف الرديتر وتبديل السائل\nمنظف رديتر STOP أمريكي\nغير شاملة سائل التبريد",
+      "image": "/cooling-flush.webp",
+      "price": "150 ريال",
+      "meta": "radiator",
+      "status": "published",
+      "position": 3,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "radiator-external",
+      "kind": "service_feature",
+      "title": "باقات تنظيف الليات الخارجية",
+      "body": "تتوفر باقة أساسية وشاملة بحسب نطاق الخدمة المبين في الأسعار أدناه.",
+      "image": "/package-cooling.webp",
+      "price": "",
+      "meta": "radiator",
+      "status": "draft",
+      "position": 15,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "radiator-internal",
+      "kind": "service_feature",
+      "title": "الليات الداخلية والهايبرد والسيارات الكبيرة",
+      "body": "تتوفر باقات مخصصة لهذه الفئة؛ جميع الباقات لا تشمل سائل التبريد.",
+      "image": "/cooling-flush.webp",
+      "price": "",
+      "meta": "radiator",
+      "status": "draft",
+      "position": 16,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "radiator-note-28",
+      "kind": "service_note",
+      "title": "سائل التبريد غير مشمول",
+      "body": "جميع الباقات غير شاملة سائل التبريد. تتوفر سوائل تبريد ومواد تنظيف من عدة شركات عالمية بأسعار مختلفة.",
+      "image": "",
+      "price": "",
+      "meta": "radiator",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "radiator-poster",
+      "kind": "service_poster",
+      "title": "عرض الخدمة المعتمد",
+      "body": "",
+      "image": "/approved-radiator.webp",
+      "price": "",
+      "meta": "radiator",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "smoke",
+      "kind": "service",
+      "title": "كشف التهريب بالدخان",
+      "body": "كشف مواقع التهريب باستخدام جهاز الدخان",
+      "image": "",
+      "price": "30 ريال",
+      "meta": "",
+      "status": "draft",
+      "position": 7,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "smoke-check",
+      "kind": "service_feature",
+      "title": "كشف التهريب بالدخان",
+      "body": "استخدام جهاز الدخان لتحديد مواقع التسرب في الأجزاء الملائمة للفحص.",
+      "image": "",
+      "price": "",
+      "meta": "smoke",
+      "status": "published",
+      "position": 22,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "specialized-inspection",
+      "kind": "service",
+      "title": "خدمات الفحص المتخصصة",
+      "body": "ثلاثة مسارات فحص لتقييم حالة رأس المحرك، كشف التهريب بالدخان، وفحص منظومة كهرباء التشغيل. اختر الفحص الملائم للملاحظة التي تظهر في سيارتك.",
+      "image": "/deep-cleaning-diagnostics.webp",
+      "price": "تبدأ من 30 ريال",
+      "meta": "cat-electrical",
+      "status": "published",
+      "position": 16,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "specialized-inspection-approved-feature-0",
+      "kind": "service_feature",
+      "title": "فحص رأس الماكينة",
+      "body": "تقييم حالة رأس المحرك بأجهزة مخصصة لتوجيه خطوات التشخيص.",
+      "image": "/engine-tune-editorial.webp",
+      "price": "",
+      "meta": "specialized-inspection",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "specialized-inspection-approved-feature-1",
+      "kind": "service_feature",
+      "title": "كشف التهريب بالدخان",
+      "body": "استخدام جهاز الدخان للمساعدة في تحديد مواقع التهريب في المسارات المناسبة للفحص.",
+      "image": "/deep-cleaning-machine.webp",
+      "price": "",
+      "meta": "specialized-inspection",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "specialized-inspection-approved-feature-2",
+      "kind": "service_feature",
+      "title": "فحص البطارية والدينمو والسلف",
+      "body": "فحص منظومة كهرباء التشغيل لتقييم البطارية والشحن والسلف.",
+      "image": "/deep-cleaning-diagnostics.webp",
+      "price": "",
+      "meta": "specialized-inspection",
+      "status": "published",
+      "position": 2,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "specialized-inspection-approved-package-0",
+      "kind": "package",
+      "title": "فحص رأس الماكينة",
+      "body": "تقييم حالة رأس المحرك بأجهزة مخصصة لتوجيه خطوات التشخيص.",
+      "image": "/engine-tune-editorial.webp",
+      "price": "50 ريال",
+      "meta": "specialized-inspection",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "specialized-inspection-approved-package-1",
+      "kind": "package",
+      "title": "كشف التهريب بالدخان",
+      "body": "استخدام جهاز الدخان للمساعدة في تحديد مواقع التهريب في المسارات المناسبة للفحص.",
+      "image": "/deep-cleaning-machine.webp",
+      "price": "30 ريال",
+      "meta": "specialized-inspection",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "specialized-inspection-approved-package-2",
+      "kind": "package",
+      "title": "فحص البطارية والدينمو والسلف",
+      "body": "فحص منظومة كهرباء التشغيل لتقييم البطارية والشحن والسلف.",
+      "image": "/deep-cleaning-diagnostics.webp",
+      "price": "30 ريال",
+      "meta": "specialized-inspection",
+      "status": "published",
+      "position": 2,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "specialized-inspection-poster",
+      "kind": "service_poster",
+      "title": "عرض الخدمة المعتمد",
+      "body": "",
+      "image": "/approved-specialized-inspection.webp",
+      "price": "",
+      "meta": "specialized-inspection",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "steering",
+      "kind": "service",
+      "title": "تغيير زيت الدركسون",
+      "body": "إزالة الزيت القديم والرواسب وتجديد سائل نظام التوجيه الهيدروليكي بالمواصفة المناسبة للسيارة، لدعم سلاسة التوجيه والعناية بالمضخة.",
+      "image": "/approved-steering.webp",
+      "price": "50 ريال",
+      "meta": "cat-steering",
+      "status": "published",
+      "position": 18,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "steering-approved-feature-0",
+      "kind": "service_feature",
+      "title": "إزالة الزيت القديم والرواسب",
+      "body": "تجديد الزيت بالطريقة المناسبة لنظام التوجيه الهيدروليكي.",
+      "image": "/oil-care-editorial.webp",
+      "price": "",
+      "meta": "steering",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "steering-approved-feature-1",
+      "kind": "service_feature",
+      "title": "نعومة واستجابة التوجيه",
+      "body": "العناية بالسائل للمساعدة في تحسين نعومة التوجيه وتقليل الأصوات والقلق المرتبطين بحالة السائل.",
+      "image": "/oil-care-editorial.webp",
+      "price": "",
+      "meta": "steering",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "steering-approved-feature-2",
+      "kind": "service_feature",
+      "title": "حماية مضخة التوجيه",
+      "body": "استخدام السائل المطابق للمواصفات يساعد في حماية المضخة وأجزاء النظام ودعم عمرها التشغيلي.",
+      "image": "/oil-care-editorial.webp",
+      "price": "",
+      "meta": "steering",
+      "status": "published",
+      "position": 2,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "steering-fluid",
+      "kind": "service_feature",
+      "title": "خدمة تغيير زيت الدركسون",
+      "body": "تغيير سائل التوجيه للمركبات التي تستخدم هذه المنظومة؛ الزيت غير مشمول ويُوفّره العميل.",
+      "image": "",
+      "price": "",
+      "meta": "steering",
+      "status": "draft",
+      "position": 17,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "steering-note-92",
+      "kind": "service_note",
+      "title": "السعر لا يشمل الزيت",
+      "body": "الخدمة 50 ريال ولا تشمل الزيت. تتوفر زيوت ومنظفات من عدة شركات عالمية بأسعار مختلفة.",
+      "image": "",
+      "price": "",
+      "meta": "steering",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "steering-poster",
+      "kind": "service_poster",
+      "title": "عرض الخدمة المعتمد",
+      "body": "",
+      "image": "/approved-steering.webp",
+      "price": "",
+      "meta": "steering",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "tpms",
+      "kind": "service",
+      "title": "فحص وبرمجة حساسات ضغط الإطارات",
+      "body": "فحص حساسات ضغط الإطارات وقراءة حالتها، مع خيارات لتوفير حساسات LAUNCH وبرمجتها بحسب توافق السيارة.",
+      "image": "/approved-tpms.webp",
+      "price": "تبدأ من 50 ريال",
+      "meta": "cat-brakes",
+      "status": "published",
+      "position": 13,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "tpms-approved-feature-0",
+      "kind": "service_feature",
+      "title": "فحص حساسات الإطارات",
+      "body": "فحص حساسات ضغط الإطارات كاملة والتأكد من استجابة الحساسات.",
+      "image": "/preventive-care-suspension.webp",
+      "price": "",
+      "meta": "tpms",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "tpms-approved-feature-1",
+      "kind": "service_feature",
+      "title": "قراءة حالة الحساسات",
+      "body": "قراءة حالة الحساسات لتحديد الحاجة إلى البرمجة أو الاستبدال.",
+      "image": "/preventive-care-suspension.webp",
+      "price": "",
+      "meta": "tpms",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "tpms-approved-feature-2",
+      "kind": "service_feature",
+      "title": "برمجة الحساسات الجديدة",
+      "body": "برمجة الحساسات الجديدة وربطها بالسيارة وفق النظام المتوافق.",
+      "image": "/preventive-care-suspension.webp",
+      "price": "",
+      "meta": "tpms",
+      "status": "published",
+      "position": 2,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "tpms-approved-package-0",
+      "kind": "package",
+      "title": "فحص الإطارات كاملة",
+      "body": "الأسعار لا تشمل التركيب",
+      "image": "/preventive-care-suspension.webp",
+      "price": "50 ريال",
+      "meta": "tpms",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "tpms-approved-package-1",
+      "kind": "package",
+      "title": "حساس + برمجة",
+      "body": "الأسعار لا تشمل التركيب",
+      "image": "/preventive-care-suspension.webp",
+      "price": "70 ريال",
+      "meta": "tpms",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "tpms-approved-package-2",
+      "kind": "package",
+      "title": "أربع حساسات + برمجة",
+      "body": "الأسعار لا تشمل التركيب",
+      "image": "/preventive-care-suspension.webp",
+      "price": "240 ريال",
+      "meta": "tpms",
+      "status": "published",
+      "position": 2,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "tpms-note-37",
+      "kind": "service_note",
+      "title": "التركيب والضمان",
+      "body": "الأسعار لا تشمل التركيب. الحساسات أصلية من شركة LAUNCH، مع ضمان لمدة سنة.",
+      "image": "",
+      "price": "",
+      "meta": "tpms",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "tpms-poster",
+      "kind": "service_poster",
+      "title": "عرض الخدمة المعتمد",
+      "body": "",
+      "image": "/approved-tpms.webp",
+      "price": "",
+      "meta": "tpms",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "transmission-fluid",
+      "kind": "service",
+      "title": "تغيير زيت القير بالأجهزة",
+      "body": "خدمة للعناية بزيت ناقل الحركة، تبدأ بالتغيير التقليدي وتصل إلى الاستبدال بالجهاز مع تنظيف مسارات الزيت والمبرد، وإجراءات الفحص والتهيئة بالكمبيوتر. اختر الباقة المناسبة لتصميم القير وحالته بعد الفحص.",
+      "image": "/transmission-editorial.webp",
+      "price": "تبدأ من 50 ريال",
+      "meta": "cat-oils",
+      "status": "published",
+      "position": 22,
+      "created_at": "2026-10-01T08:44:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "transmission-fluid-basic",
+      "kind": "package",
+      "title": "الباقة الأساسية · تغيير تقليدي (شفط)",
+      "body": "تفريغ أو شفط الزيت القديم وتعبئة الزيت الجديد\nتشمل أجور اليد فقط\nلا تشمل قيمة الزيت والفلتر",
+      "image": "/transmission-editorial.webp",
+      "price": "50 ريال",
+      "meta": "transmission-fluid",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T08:44:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "transmission-fluid-compatibility",
+      "kind": "service_note",
+      "title": "اختيار الخدمة المناسبة للقير",
+      "body": "تُراجع حالة القير ومواصفات الزيت المعتمدة قبل العمل. طريقة الاستبدال والتنظيف والبرمجة وإمكانية فك الكارتير أو تغيير الفلتر تختلف بحسب تصميم ناقل الحركة وإجراءات الصانع.",
+      "image": "",
+      "price": "",
+      "meta": "transmission-fluid",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-10-01T08:44:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "transmission-fluid-feature-1",
+      "kind": "service_feature",
+      "title": "استبدال زيت القير",
+      "body": "تفريغ أو شفط الزيت في الباقة الأساسية، أو الاستبدال بالجهاز في الباقتين الفضية والذهبية. تُحدد طريقة العمل ومدى ملاءمتها بعد تقييم القير.",
+      "image": "/transmission-editorial.webp",
+      "price": "",
+      "meta": "transmission-fluid",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T08:44:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "transmission-fluid-feature-2",
+      "kind": "service_feature",
+      "title": "تنظيف مجاري الزيت والمبرد",
+      "body": "تشمل الباقتان الفضية والذهبية تنظيف مجاري الزيت والمبرد بالطريقة المناسبة للسيارة، ضمن أعمال تجديد سائل القير.",
+      "image": "/transmission-level.webp",
+      "price": "",
+      "meta": "transmission-fluid",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-10-01T08:44:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "transmission-fluid-feature-3",
+      "kind": "service_feature",
+      "title": "الفحص وإعادة الضبط بالكمبيوتر",
+      "body": "تشمل الفضية والذهبية إعادة الضبط ومسح الأكواد وبرمجة القير وفق الإجراءات المدعومة للسيارة. تُستخدم نتائج الفحص لتحديد الحاجة إلى هذه الخطوات.",
+      "image": "/deep-cleaning-diagnostics.webp",
+      "price": "",
+      "meta": "transmission-fluid",
+      "status": "published",
+      "position": 2,
+      "created_at": "2026-10-01T08:44:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "transmission-fluid-feature-4",
+      "kind": "service_feature",
+      "title": "تنظيف الكارتير وتركيب الفلتر",
+      "body": "تضيف الباقة الذهبية فك كارتير القير وتنظيف الترسبات، ثم تركيب الفلتر الجديد والوجه عندما يسمح تصميم ناقل الحركة بذلك.",
+      "image": "/transmission-filter.webp",
+      "price": "",
+      "meta": "transmission-fluid",
+      "status": "published",
+      "position": 3,
+      "created_at": "2026-10-01T08:44:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "transmission-fluid-gold",
+      "kind": "package",
+      "title": "الباقة الذهبية · تغيير شامل متكامل بالجهاز",
+      "body": "استبدال كلي لزيت القير بالجهاز المتطور\nفك كارتير القير وتنظيفه من الترسبات\nتركيب الفلتر الجديد والوجه\nتنظيف مجاري الزيت والمبرد\nإعادة ضبط ومسح الأكواد وبرمجة القير بالكمبيوتر\nتشمل أجور اليد والفك والتركيب والبرمجة\nلا تشمل قيمة الزيت والفلتر",
+      "image": "/transmission-filter.webp",
+      "price": "150 ريال",
+      "meta": "transmission-fluid",
+      "status": "published",
+      "position": 2,
+      "created_at": "2026-10-01T08:44:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "transmission-fluid-poster",
+      "kind": "service_poster",
+      "title": "عرض الخدمة المعتمد",
+      "body": "",
+      "image": "/approved-transmission-fluid.webp",
+      "price": "",
+      "meta": "transmission-fluid",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T08:44:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "transmission-fluid-price-note",
+      "kind": "service_note",
+      "title": "الزيت والفلتر غير مشمولين",
+      "body": "جميع أسعار الباقات لا تشمل قيمة الزيت والفلتر. تشمل الأساسية أجور اليد فقط، والفضية أجور اليد والبرمجة، والذهبية أجور اليد والفك والتركيب والبرمجة.",
+      "image": "",
+      "price": "",
+      "meta": "transmission-fluid",
+      "status": "published",
+      "position": 0,
+      "created_at": "2026-10-01T08:44:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "transmission-fluid-products",
+      "kind": "service_note",
+      "title": "زيوت وفلاتر متاحة لدى المركز",
+      "body": "تتوفر لدينا زيوت وفلاتر من عدة شركات عالمية. يمكن الاستفسار عن المنتج المناسب وسعره قبل التنفيذ.",
+      "image": "",
+      "price": "",
+      "meta": "transmission-fluid",
+      "status": "published",
+      "position": 2,
+      "created_at": "2026-10-01T08:44:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "transmission-fluid-silver",
+      "kind": "package",
+      "title": "الباقة الفضية · تغيير كامل بالجهاز",
+      "body": "استبدال كلي لزيت القير بالجهاز المتطور\nتنظيف مجاري الزيت والمبرد\nإعادة ضبط ومسح الأكواد وبرمجة القير بالكمبيوتر\nتشمل أجور اليد والبرمجة\nلا تشمل قيمة الزيت والفلتر",
+      "image": "/transmission-level.webp",
+      "price": "90 ريال",
+      "meta": "transmission-fluid",
+      "status": "published",
+      "position": 1,
+      "created_at": "2026-10-01T08:44:00.000Z",
+      "rating": 0
+    },
+    {
+      "id": "tune-inspection",
+      "kind": "service_feature",
+      "title": "فحص أداء الماكينة",
+      "body": "تحديد أعمال الفحص والتنظيف المناسبة حسب حالة السيارة والباقة المختارة.",
+      "image": "/engine-tune-editorial.webp",
+      "price": "",
+      "meta": "engine-tune",
+      "status": "draft",
+      "position": 20,
+      "created_at": "2026-09-23T00:00:00.000Z",
+      "rating": 0
+    }
+  ],
+  "settings": [
+    {
+      "key": "approved_service_posters_oct2026_v1",
+      "value": "1"
+    },
+    {
+      "key": "article_chapters_seed_v1",
+      "value": "1"
+    },
+    {
+      "key": "catalog_seed_v2",
+      "value": "1"
+    },
+    {
+      "key": "catalyst_article_seed_v1",
+      "value": "1"
+    },
+    {
+      "key": "catalytic_offer_seed_v1",
+      "value": "1"
+    },
+    {
+      "key": "cooling_article_seed_v1",
+      "value": "1"
+    },
+    {
+      "key": "engine_tune_article_seed_v1",
+      "value": "1"
+    },
+    {
+      "key": "maintenance_articles_seed_v1",
+      "value": "1"
+    },
+    {
+      "key": "service_details_seed_v1",
+      "value": "1"
+    },
+    {
+      "key": "services_catalog_pdf_v1",
+      "value": "1"
+    },
+    {
+      "key": "translation:brake-fluid",
+      "value": "{\"title\":\"Brake fluid replacement\",\"body\":\"Replace brake fluid and bleed air using dedicated equipment, following the manufacturer’s fluid specifications and procedures.\",\"price\":\"From SAR 50\"}"
+    },
+    {
+      "key": "translation:brake-fluid-approved-feature-0",
+      "value": "{\"title\":\"Replace old fluid\",\"body\":\"Replace old brake fluid throughout the system.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:brake-fluid-approved-feature-1",
+      "value": "{\"title\":\"Bleed air\",\"body\":\"Bleed air from brake lines to support pedal response, following vehicle procedures.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:brake-fluid-approved-feature-2",
+      "value": "{\"title\":\"System care\",\"body\":\"Correctly specified fluid helps limit corrosion; braking performance is assessed through inspection.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:brake-fluid-approved-package-0",
+      "value": "{\"title\":\"Basic package\",\"body\":\"Brake fluid replacement\\nFluid excluded\",\"price\":\"SAR 50\"}"
+    },
+    {
+      "key": "translation:brake-fluid-approved-package-1",
+      "value": "{\"title\":\"Complete package\",\"body\":\"Brake fluid replacement\\nIncludes four containers of brake fluid\",\"price\":\"From SAR 100\"}"
+    },
+    {
+      "key": "translation:brake-fluid-extra-17",
+      "value": "{\"title\":\"Additional inspection package\",\"body\":\"Computer brake-fluid programming\\nInstrument inspection of rotors\\nInstrument tire inspection\\nInstrument brake-pad inspection\",\"price\":\"SAR 70\"}"
+    },
+    {
+      "key": "translation:brake-fluid-note-18",
+      "value": "{\"title\":\"Brake fluid selection\",\"body\":\"Brake fluids from various brands are available; the type must match the vehicle specification.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:brake-fluid-poster",
+      "value": "{\"title\":\"Approved service offer\",\"body\":\"\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:cat-brakes",
+      "value": "{\"title\":\"Brakes and tires\",\"body\":\"Brake care and tire-pressure sensors\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:catalytic",
+      "value": "{\"title\":\"Catalytic converter inspection and cleaning\",\"body\":\"Options begin with camera inspection and pressure measurement, followed by a cleaning method suited to the converter. Cleaning cannot repair internal damage; suitability is determined by inspection.\",\"price\":\"From SAR 30\"}"
+    },
+    {
+      "key": "translation:catalytic-approved-feature-0",
+      "value": "{\"title\":\"Diagnostic inspection\",\"body\":\"Inspect with a camera, with an option for pressure measurement to assess exhaust flow.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:catalytic-approved-feature-1",
+      "value": "{\"title\":\"Vapor cleaning\",\"body\":\"Machine vapor cleaning where inspection confirms suitability.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:catalytic-approved-feature-2",
+      "value": "{\"title\":\"Specialist cleaning spray\",\"body\":\"Chinese, German, and American or Belgian specialist cleaning products according to the chosen option.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:catalytic-approved-package-0",
+      "value": "{\"title\":\"Camera inspection\",\"body\":\"Price per converter\",\"price\":\"SAR 30\"}"
+    },
+    {
+      "key": "translation:catalytic-approved-package-1",
+      "value": "{\"title\":\"Pressure gauge and camera inspection\",\"body\":\"Price per converter\",\"price\":\"SAR 80\"}"
+    },
+    {
+      "key": "translation:catalytic-approved-package-2",
+      "value": "{\"title\":\"Machine vapor cleaning\",\"body\":\"Price per converter\",\"price\":\"SAR 80\"}"
+    },
+    {
+      "key": "translation:catalytic-approved-package-3",
+      "value": "{\"title\":\"Chinese cleaning spray\",\"body\":\"Price per converter\",\"price\":\"SAR 50\"}"
+    },
+    {
+      "key": "translation:catalytic-approved-package-4",
+      "value": "{\"title\":\"German cleaning spray\",\"body\":\"Price per converter\",\"price\":\"SAR 80\"}"
+    },
+    {
+      "key": "translation:catalytic-approved-package-5",
+      "value": "{\"title\":\"American / Belgian cleaning spray\",\"body\":\"Price per converter\",\"price\":\"SAR 120\"}"
+    },
+    {
+      "key": "translation:catalytic-note-86",
+      "value": "{\"title\":\"Price per converter\",\"body\":\"All listed prices are per converter; inspection determines cleaning suitability.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:catalytic-poster",
+      "value": "{\"title\":\"Approved service offer\",\"body\":\"\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:computer",
+      "value": "{\"title\":\"Computer diagnostics\",\"body\":\"Electronic diagnostics using a LAUNCH X-431 PAD 9 to read faults, send a report by WhatsApp, and clear codes according to diagnostic procedures.\",\"price\":\"SAR 30\"}"
+    },
+    {
+      "key": "translation:computer-approved-feature-0",
+      "value": "{\"title\":\"Read faults\",\"body\":\"Read fault codes from compatible vehicle systems using a LAUNCH X-431 PAD 9.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:computer-approved-feature-1",
+      "value": "{\"title\":\"Report by WhatsApp\",\"body\":\"Send the diagnostic report to the customer by WhatsApp.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:computer-approved-feature-2",
+      "value": "{\"title\":\"Clear codes\",\"body\":\"Clear codes according to diagnostic procedures; clearing a code does not repair its cause.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:computer-poster",
+      "value": "{\"title\":\"Approved service offer\",\"body\":\"\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:deep-cleaning",
+      "value": "{\"title\":\"Diesel vehicle cleaning\",\"body\":\"A package for air, fuel, and exhaust components, with inspection and suitable relearn procedures according to the vehicle and engine.\",\"price\":\"From SAR 250\"}"
+    },
+    {
+      "key": "translation:deep-cleaning-approved-feature-0",
+      "value": "{\"title\":\"Turbocharger deposit cleaning\",\"body\":\"Clean removable deposits in suitable turbocharger components after assessing condition and accessibility.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:deep-cleaning-approved-feature-1",
+      "value": "{\"title\":\"Catalytic converter cleaning\",\"body\":\"Select a cleaning method after assessing the converter. Internal damage or melting requires a different repair.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:deep-cleaning-approved-feature-2",
+      "value": "{\"title\":\"Oxygen sensor cleaning\",\"body\":\"Inspect and clean the sensor where its condition permits, then review its operation in the exhaust system.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:deep-cleaning-approved-feature-3",
+      "value": "{\"title\":\"Injector cleaning and spray check\",\"body\":\"Clean diesel injectors and review the spray pattern according to injection-system design and injector condition.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:deep-cleaning-approved-feature-4",
+      "value": "{\"title\":\"Intake manifold cleaning\",\"body\":\"Clean intake deposits using a method permitted by the vehicle design; inspection determines accessible areas.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:deep-cleaning-approved-feature-5",
+      "value": "{\"title\":\"Air valve and throttle cleaning\",\"body\":\"Clean the throttle body and suitable intake parts while protecting sensitive electronics.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:deep-cleaning-approved-feature-6",
+      "value": "{\"title\":\"Converter camera inspection\",\"body\":\"Use an inspection camera to help assess the internal substrate and cleaning suitability.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:deep-cleaning-approved-feature-7",
+      "value": "{\"title\":\"Vehicle programming\",\"body\":\"Perform suitable relearn or programming procedures after service when required and supported by the vehicle.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:deep-cleaning-approved-package-0",
+      "value": "{\"title\":\"4-cylinder diesel vehicles\",\"body\":\"Includes the work described above, where suitable for the vehicle\",\"price\":\"SAR 250\"}"
+    },
+    {
+      "key": "translation:deep-cleaning-approved-package-1",
+      "value": "{\"title\":\"6-cylinder diesel vehicles\",\"body\":\"Includes the work described above, where suitable for the vehicle\",\"price\":\"SAR 300\"}"
+    },
+    {
+      "key": "translation:deep-cleaning-extra-66",
+      "value": "{\"title\":\"EGR cleaning\",\"body\":\"Additional service; price confirmed before work.\",\"price\":\"Price confirmed before service\"}"
+    },
+    {
+      "key": "translation:deep-cleaning-poster",
+      "value": "{\"title\":\"Approved service offer\",\"body\":\"\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:engine-flush",
+      "value": "{\"title\":\"Engine flush\",\"body\":\"Clean deposits from engine oil passages with dedicated equipment, followed by an oil and filter change suited to the engine and vehicle specification.\",\"price\":\"From SAR 50\"}"
+    },
+    {
+      "key": "translation:engine-flush-approved-feature-0",
+      "value": "{\"title\":\"Oil passage cleaning\",\"body\":\"Remove cleanable deposits and contaminants from oil passages after assessing the engine.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:engine-flush-approved-feature-1",
+      "value": "{\"title\":\"Oil and filter replacement\",\"body\":\"Replace the engine oil and filter after cleaning. The customer supplies both; products available at the center can be discussed.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:engine-flush-approved-feature-2",
+      "value": "{\"title\":\"Internal engine care\",\"body\":\"Clean, correctly specified oil helps reduce friction and support engine operation.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:engine-flush-approved-package-0",
+      "value": "{\"title\":\"Basic package\",\"body\":\"Engine flush\\nCleaning additive excluded\\nCustomer supplies oil and filter\",\"price\":\"SAR 50\"}"
+    },
+    {
+      "key": "translation:engine-flush-approved-package-1",
+      "value": "{\"title\":\"Complete package\",\"body\":\"Engine flush\\nCleaning additive included\\nCustomer supplies oil and filter\",\"price\":\"SAR 100\"}"
+    },
+    {
+      "key": "translation:engine-flush-extra-8",
+      "value": "{\"title\":\"Oil strainer cleaning and sump removal\",\"body\":\"Additional services; charges are confirmed before work.\",\"price\":\"Price confirmed before service\"}"
+    },
+    {
+      "key": "translation:engine-flush-note-9",
+      "value": "{\"title\":\"Available oils and products\",\"body\":\"Oils, cleaning products, and filters from various international brands are available at different prices.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:engine-flush-poster",
+      "value": "{\"title\":\"Approved service offer\",\"body\":\"\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:engine-tune",
+      "value": "{\"title\":\"Engine tune-up · 4-cylinder external injectors\",\"body\":\"Two packages for injection, ignition, and air-system cleaning, with checks and relearn procedures listed for each option. Scope depends on injector type and vehicle compatibility.\",\"price\":\"From SAR 50\"}"
+    },
+    {
+      "key": "translation:engine-tune-approved-feature-0",
+      "value": "{\"title\":\"Injector care\",\"body\":\"Machine and ultrasonic injector cleaning in both packages.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:engine-tune-approved-feature-1",
+      "value": "{\"title\":\"Air and ignition systems\",\"body\":\"The Silver package includes the throttle, sensor, coil, and spark plug cleaning listed in its checklist.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:engine-tune-approved-feature-2",
+      "value": "{\"title\":\"Inspection and relearn\",\"body\":\"The Silver package includes listed fluid checks, fault-code reading and clearing, converter camera inspection, and throttle relearn.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:engine-tune-approved-package-0",
+      "value": "{\"title\":\"Basic package\",\"body\":\"Machine injector cleaning\\nUltrasonic injector cleaning\\nVehicle programming\",\"price\":\"SAR 50\"}"
+    },
+    {
+      "key": "translation:engine-tune-approved-package-1",
+      "value": "{\"title\":\"Silver package\",\"body\":\"Machine injector cleaning\\nUltrasonic injector cleaning\\nThrottle cleaning\\nIgnition coil cleaning\\nVVT sensor cleaning\\nShaft sensor cleaning\\nMAF sensor cleaning\\nMAP sensor cleaning\\nInjector seal cleaning\\nCoil boot cleaning\\nSpark plug cleaning\\nOxygen sensor cleaning\\nAir filter cleaning\\nEngine oil instrument check\\nBrake fluid instrument check\\nCoolant instrument check\\nPower steering fluid instrument check\\nThrottle relearn\\nRead and clear fault codes\\nConverter camera inspection\",\"price\":\"SAR 120\"}"
+    },
+    {
+      "key": "translation:engine-tune-extra-105",
+      "value": "{\"title\":\"Additional work according to vehicle condition\",\"body\":\"Combustion chamber cleaning · EGR cleaning · Turbo cleaning · Fuel vapor valve cleaning · Fuel filter replacement · Valve cover gasket replacement · Intake manifold cleaning with equipment or removal, depending on vehicle\",\"price\":\"Price confirmed before service\"}"
+    },
+    {
+      "key": "translation:engine-tune-internal",
+      "value": "{\"title\":\"Engine tune-up · Internal injectors and 6-cylinder vehicles\",\"body\":\"Two packages for injection, ignition, and air-system cleaning, with checks and relearn procedures listed for each option. Scope depends on injector type and vehicle compatibility.\",\"price\":\"From SAR 100\"}"
+    },
+    {
+      "key": "translation:engine-tune-internal-approved-feature-0",
+      "value": "{\"title\":\"Injector care\",\"body\":\"Machine and ultrasonic injector cleaning in both packages.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:engine-tune-internal-approved-feature-1",
+      "value": "{\"title\":\"Air and ignition systems\",\"body\":\"The Silver package includes the throttle, sensor, coil, and spark plug cleaning listed in its checklist.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:engine-tune-internal-approved-feature-2",
+      "value": "{\"title\":\"Inspection and relearn\",\"body\":\"The Silver package includes listed fluid checks, fault-code reading and clearing, converter camera inspection, and throttle relearn.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:engine-tune-internal-approved-package-0",
+      "value": "{\"title\":\"Basic package\",\"body\":\"Machine injector cleaning\\nUltrasonic injector cleaning\\nVehicle programming\",\"price\":\"SAR 100\"}"
+    },
+    {
+      "key": "translation:engine-tune-internal-approved-package-1",
+      "value": "{\"title\":\"Silver package\",\"body\":\"Machine injector cleaning\\nUltrasonic injector cleaning\\nThrottle cleaning\\nIgnition coil cleaning\\nVVT sensor cleaning\\nShaft sensor cleaning\\nMAF sensor cleaning\\nMAP sensor cleaning\\nInjector seal cleaning\\nCoil boot cleaning\\nSpark plug cleaning\\nIntake manifold cleaning\\nOxygen sensor cleaning\\nAir filter cleaning\\nEngine oil instrument check\\nBrake fluid instrument check\\nCoolant instrument check\\nPower steering fluid instrument check\\nThrottle relearn\\nRead and clear fault codes\\nConverter camera inspection\",\"price\":\"SAR 240\"}"
+    },
+    {
+      "key": "translation:engine-tune-internal-extra-114",
+      "value": "{\"title\":\"Additional work according to vehicle condition\",\"body\":\"Combustion chamber cleaning · EGR cleaning · Turbo cleaning · Fuel vapor valve cleaning · Fuel filter replacement · Valve cover gasket replacement\",\"price\":\"Price confirmed before service\"}"
+    },
+    {
+      "key": "translation:engine-tune-internal-note-115",
+      "value": "{\"title\":\"Replacement parts excluded\",\"body\":\"Offer covers cleaning only, excluding parts. The customer supplies spark plugs, injector seals, coil boots, air filter, and cabin filter; replacement is on request. Some vehicles do not permit manifold removal; cleaning is performed with equipment.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:engine-tune-internal-poster",
+      "value": "{\"title\":\"Approved service offer\",\"body\":\"\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:engine-tune-note-106",
+      "value": "{\"title\":\"Replacement parts excluded\",\"body\":\"Offer covers cleaning only, excluding parts. The customer supplies spark plugs, injector seals, coil boots, air filter, and cabin filter; replacement is on request.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:engine-tune-poster",
+      "value": "{\"title\":\"Approved service offer\",\"body\":\"\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:fast-zone-services",
+      "value": "{\"title\":\"Fast Zone service catalogue\",\"body\":\"Browse the center’s services and packages in a 15-page catalogue.\"}"
+    },
+    {
+      "key": "translation:petrol-cleaning",
+      "value": "{\"title\":\"Petrol vehicle cleaning\",\"body\":\"A package for air, fuel, and exhaust components, with inspection and suitable relearn procedures according to the vehicle and engine.\",\"price\":\"From SAR 200\"}"
+    },
+    {
+      "key": "translation:petrol-cleaning-approved-feature-0",
+      "value": "{\"title\":\"Throttle body cleaning\",\"body\":\"Clean deposits around the throttle body using a method suited to its design while protecting sensitive electronics.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:petrol-cleaning-approved-feature-1",
+      "value": "{\"title\":\"MAF sensor cleaning\",\"body\":\"Care for the mass airflow sensor using a suitable cleaning method without touching the sensitive measuring element.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:petrol-cleaning-approved-feature-2",
+      "value": "{\"title\":\"MAP sensor cleaning\",\"body\":\"Clean the intake pressure sensor where its condition permits and review its response as part of air-system assessment.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:petrol-cleaning-approved-feature-3",
+      "value": "{\"title\":\"Intake manifold cleaning\",\"body\":\"Clean intake deposits using a method permitted by the vehicle design; inspection determines accessible areas.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:petrol-cleaning-approved-feature-4",
+      "value": "{\"title\":\"Injector cleaning\",\"body\":\"Clean injectors according to the injection system and vehicle equipment to care for the fuel spray pattern.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:petrol-cleaning-approved-feature-5",
+      "value": "{\"title\":\"Catalytic converter cleaning\",\"body\":\"Select a cleaning method after assessing the converter. Internal damage or melting requires a different repair.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:petrol-cleaning-approved-feature-6",
+      "value": "{\"title\":\"Oxygen sensor cleaning\",\"body\":\"Inspect and clean the sensor where its condition permits, then review its operation in the exhaust system.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:petrol-cleaning-approved-feature-7",
+      "value": "{\"title\":\"Spark plug and wire cleaning\",\"body\":\"Care for spark plugs and ignition wires on suitable vehicles; this work is not applicable to all cars.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:petrol-cleaning-approved-feature-8",
+      "value": "{\"title\":\"Converter camera inspection\",\"body\":\"Use an inspection camera to help assess the internal substrate and cleaning suitability.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:petrol-cleaning-approved-feature-9",
+      "value": "{\"title\":\"Vehicle programming\",\"body\":\"Perform suitable relearn or programming procedures after service when required and supported by the vehicle.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:petrol-cleaning-approved-package-0",
+      "value": "{\"title\":\"4-cylinder petrol vehicles\",\"body\":\"Includes the work described above, where suitable for the vehicle\",\"price\":\"SAR 200\"}"
+    },
+    {
+      "key": "translation:petrol-cleaning-approved-package-1",
+      "value": "{\"title\":\"6-cylinder petrol vehicles\",\"body\":\"Includes the work described above, where suitable for the vehicle\",\"price\":\"SAR 250\"}"
+    },
+    {
+      "key": "translation:petrol-cleaning-approved-package-2",
+      "value": "{\"title\":\"8-cylinder petrol vehicles\",\"body\":\"Includes the work described above, where suitable for the vehicle\",\"price\":\"SAR 300\"}"
+    },
+    {
+      "key": "translation:petrol-cleaning-note-53",
+      "value": "{\"title\":\"Important note\",\"body\":\"Services exclude dismantling. Spark plug and wire cleaning is not applicable to all vehicles.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:petrol-cleaning-poster",
+      "value": "{\"title\":\"Approved service offer\",\"body\":\"\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:radiator",
+      "value": "{\"title\":\"Radiator cleaning\",\"body\":\"Clean radiator deposits and replace coolant, with packages based on cooling-system layout and vehicle type.\",\"price\":\"From SAR 50\"}"
+    },
+    {
+      "key": "translation:radiator-approved-feature-0",
+      "value": "{\"title\":\"Remove deposits\",\"body\":\"Remove cleanable deposits using a method suited to the radiator and cooling circuit.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:radiator-approved-feature-1",
+      "value": "{\"title\":\"Replace coolant\",\"body\":\"Replace coolant with the correct type and concentration for the vehicle.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:radiator-approved-feature-2",
+      "value": "{\"title\":\"Support cooling efficiency\",\"body\":\"Clean passages and suitable fresh coolant help protect against corrosion and support heat transfer.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:radiator-approved-package-0",
+      "value": "{\"title\":\"External hoses · Basic\",\"body\":\"Coolant replacement\\nCoolant excluded\",\"price\":\"SAR 50\"}"
+    },
+    {
+      "key": "translation:radiator-approved-package-1",
+      "value": "{\"title\":\"External hoses · Complete\",\"body\":\"Radiator cleaning and coolant replacement\\nAmerican STOP radiator cleaner\\nCoolant excluded\",\"price\":\"SAR 100\"}"
+    },
+    {
+      "key": "translation:radiator-approved-package-2",
+      "value": "{\"title\":\"Internal hoses, hybrids and large vehicles · Basic\",\"body\":\"Coolant replacement\\nCoolant excluded\",\"price\":\"SAR 100\"}"
+    },
+    {
+      "key": "translation:radiator-approved-package-3",
+      "value": "{\"title\":\"Internal hoses, hybrids and large vehicles · Complete\",\"body\":\"Radiator cleaning and coolant replacement\\nAmerican STOP radiator cleaner\\nCoolant excluded\",\"price\":\"SAR 150\"}"
+    },
+    {
+      "key": "translation:radiator-note-28",
+      "value": "{\"title\":\"Coolant excluded\",\"body\":\"All packages exclude coolant. Coolants and cleaning products from various brands are available at different prices.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:radiator-poster",
+      "value": "{\"title\":\"Approved service offer\",\"body\":\"\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:specialized-inspection",
+      "value": "{\"title\":\"Specialized inspections\",\"body\":\"Three diagnostic options for cylinder-head condition, smoke leak detection, and starting-system electrical checks. Choose the inspection suited to your vehicle’s symptoms.\",\"price\":\"From SAR 30\"}"
+    },
+    {
+      "key": "translation:specialized-inspection-approved-feature-0",
+      "value": "{\"title\":\"Cylinder-head inspection\",\"body\":\"Use dedicated equipment to assess cylinder-head condition and guide diagnosis.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:specialized-inspection-approved-feature-1",
+      "value": "{\"title\":\"Smoke leak detection\",\"body\":\"Use a smoke tester to help locate leaks in suitable circuits.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:specialized-inspection-approved-feature-2",
+      "value": "{\"title\":\"Battery, alternator and starter inspection\",\"body\":\"Check the battery, charging system, and starter.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:specialized-inspection-approved-package-0",
+      "value": "{\"title\":\"Cylinder-head inspection\",\"body\":\"Use dedicated equipment to assess cylinder-head condition and guide diagnosis.\",\"price\":\"SAR 50\"}"
+    },
+    {
+      "key": "translation:specialized-inspection-approved-package-1",
+      "value": "{\"title\":\"Smoke leak detection\",\"body\":\"Use a smoke tester to help locate leaks in suitable circuits.\",\"price\":\"SAR 30\"}"
+    },
+    {
+      "key": "translation:specialized-inspection-approved-package-2",
+      "value": "{\"title\":\"Battery, alternator and starter inspection\",\"body\":\"Check the battery, charging system, and starter.\",\"price\":\"SAR 30\"}"
+    },
+    {
+      "key": "translation:specialized-inspection-poster",
+      "value": "{\"title\":\"Approved service offer\",\"body\":\"\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:steering",
+      "value": "{\"title\":\"Power steering fluid replacement\",\"body\":\"Remove old fluid and deposits and renew hydraulic power steering fluid with the correct specification to support smooth steering and pump care.\",\"price\":\"SAR 50\"}"
+    },
+    {
+      "key": "translation:steering-approved-feature-0",
+      "value": "{\"title\":\"Remove old fluid and deposits\",\"body\":\"Renew fluid using a method suited to the hydraulic steering system.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:steering-approved-feature-1",
+      "value": "{\"title\":\"Smooth steering response\",\"body\":\"Fluid care to help support smooth steering and reduce fluid-related noise and concerns.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:steering-approved-feature-2",
+      "value": "{\"title\":\"Steering pump care\",\"body\":\"Correctly specified fluid helps protect the pump and system components.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:steering-note-92",
+      "value": "{\"title\":\"Fluid excluded\",\"body\":\"Service costs SAR 50 and excludes fluid. Oils and cleaners from various brands are available at different prices.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:steering-poster",
+      "value": "{\"title\":\"Approved service offer\",\"body\":\"\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:tpms",
+      "value": "{\"title\":\"TPMS inspection and programming\",\"body\":\"Inspect tire-pressure sensors and read their status, with options for LAUNCH sensors and programming subject to vehicle compatibility.\",\"price\":\"From SAR 50\"}"
+    },
+    {
+      "key": "translation:tpms-approved-feature-0",
+      "value": "{\"title\":\"Sensor inspection\",\"body\":\"Inspect all tire-pressure sensors and their response.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:tpms-approved-feature-1",
+      "value": "{\"title\":\"Read sensor status\",\"body\":\"Read sensor status to determine programming or replacement needs.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:tpms-approved-feature-2",
+      "value": "{\"title\":\"Program new sensors\",\"body\":\"Program compatible new sensors and pair them with the vehicle.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:tpms-approved-package-0",
+      "value": "{\"title\":\"All-wheel inspection\",\"body\":\"Installation excluded\",\"price\":\"SAR 50\"}"
+    },
+    {
+      "key": "translation:tpms-approved-package-1",
+      "value": "{\"title\":\"One sensor + programming\",\"body\":\"Installation excluded\",\"price\":\"SAR 70\"}"
+    },
+    {
+      "key": "translation:tpms-approved-package-2",
+      "value": "{\"title\":\"Four sensors + programming\",\"body\":\"Installation excluded\",\"price\":\"SAR 240\"}"
+    },
+    {
+      "key": "translation:tpms-note-37",
+      "value": "{\"title\":\"Installation and warranty\",\"body\":\"Installation is excluded. Genuine LAUNCH sensors with a one-year warranty.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:tpms-poster",
+      "value": "{\"title\":\"Approved service offer\",\"body\":\"\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:transmission-fluid",
+      "value": "{\"title\":\"Transmission fluid replacement\",\"body\":\"Transmission fluid care, from a conventional change to machine exchange with oil-passage and cooler cleaning, diagnostic checks, and computer relearn procedures. Select a package suited to the transmission design and condition after inspection.\",\"price\":\"From SAR 50\"}"
+    },
+    {
+      "key": "translation:transmission-fluid-basic",
+      "value": "{\"title\":\"Basic · Conventional change (extraction)\",\"body\":\"Drain or extract the old fluid and refill with new fluid\\nLabor only\\nOil and filter costs excluded\",\"price\":\"SAR 50\"}"
+    },
+    {
+      "key": "translation:transmission-fluid-compatibility",
+      "value": "{\"title\":\"Choose the right service for your transmission\",\"body\":\"Transmission condition and approved fluid specifications are reviewed before work. Exchange, cleaning, programming, sump removal, and filter replacement depend on transmission design and manufacturer procedures.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:transmission-fluid-feature-1",
+      "value": "{\"title\":\"Transmission fluid exchange\",\"body\":\"Drain or extract fluid in the Basic package, or use machine exchange in the Silver and Gold packages. The method and its suitability are determined after assessing the transmission.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:transmission-fluid-feature-2",
+      "value": "{\"title\":\"Oil passages and cooler cleaning\",\"body\":\"Silver and Gold include oil-passage and cooler cleaning using a method suited to the vehicle, as part of transmission fluid renewal.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:transmission-fluid-feature-3",
+      "value": "{\"title\":\"Diagnostics and computer relearn\",\"body\":\"Silver and Gold include reset, code clearing, and transmission programming according to supported vehicle procedures. Diagnostic findings determine the need for these steps.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:transmission-fluid-feature-4",
+      "value": "{\"title\":\"Sump cleaning and filter installation\",\"body\":\"Gold adds transmission sump removal and deposit cleaning, followed by installation of the new filter and gasket where the transmission design permits.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:transmission-fluid-gold",
+      "value": "{\"title\":\"Gold · Comprehensive machine service\",\"body\":\"Machine transmission fluid exchange\\nTransmission sump removal and deposit cleaning\\nNew filter and gasket installation\\nOil-passage and cooler cleaning\\nComputer reset, code clearing, and transmission programming\\nLabor, removal, installation, and programming included\\nOil and filter costs excluded\",\"price\":\"SAR 150\"}"
+    },
+    {
+      "key": "translation:transmission-fluid-poster",
+      "value": "{\"title\":\"Approved service offer\",\"body\":\"\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:transmission-fluid-price-note",
+      "value": "{\"title\":\"Oil and filter excluded\",\"body\":\"All package prices exclude oil and filter costs. Basic includes labor only; Silver includes labor and programming; Gold includes labor, removal, installation, and programming.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:transmission-fluid-products",
+      "value": "{\"title\":\"Oils and filters available at the center\",\"body\":\"Oils and filters from various international brands are available. Ask about the suitable product and its price before work.\",\"price\":\"\"}"
+    },
+    {
+      "key": "translation:transmission-fluid-silver",
+      "value": "{\"title\":\"Silver · Machine fluid exchange\",\"body\":\"Machine transmission fluid exchange\\nOil-passage and cooler cleaning\\nComputer reset, code clearing, and transmission programming\\nLabor and programming included\\nOil and filter costs excluded\",\"price\":\"SAR 90\"}"
+    },
+    {
+      "key": "transmission_article_seed_v1",
+      "value": "1"
+    },
+    {
+      "key": "transmission_service_seed_v1",
+      "value": "1"
+    }
+  ],
+  "bookings": []
+}

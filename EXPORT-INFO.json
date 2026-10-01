@@ -1,0 +1,13 @@
+{
+  "name": "Fast Zone",
+  "export_date": "2026-10-01",
+  "original_source_commit": "487960c18551e9e468686b5824284e852bb43f09",
+  "original_published_version": 29,
+  "target": "Vercel / Next.js + D1 REST + R2",
+  "records": 233,
+  "settings": 141,
+  "bookings": 0,
+  "credentials_included": false,
+  "browser_database_initialization": true,
+  "configuration_bundle_revision": 2
+}

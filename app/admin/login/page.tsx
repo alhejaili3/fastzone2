@@ -1,0 +1,4 @@
+import {redirect} from 'next/navigation';
+import {allowedAdmin} from '@/lib/admin';
+export const dynamic='force-dynamic';
+export default async function Login({searchParams}:{searchParams:Promise<{error?:string}>}){if(await allowedAdmin())redirect('/admin');const query=await searchParams;return <main className="wrap section" style={{maxWidth:480,minHeight:'80vh'}}><h1>دخول لوحة التحكم</h1>{query.error&&<p role="alert">تعذر الدخول. تحقق من البيانات أو حاول بعد قليل.</p>}<form action="/api/admin/login" method="post" style={{display:'grid',gap:20}}><label className="label">اسم المستخدم<input className="input" name="username" autoComplete="username" required maxLength={120}/></label><label className="label">كلمة المرور<input className="input" name="password" type="password" autoComplete="current-password" required maxLength={256}/></label><button className="btn" type="submit">دخول</button><a href="/">العودة للموقع</a></form></main>}
