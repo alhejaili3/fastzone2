@@ -1,4 +1,4 @@
-import {bookingsEnabled} from '@/lib/booking-visibility';
+import {bookingsEnabled,serviceBookingEnabled,packageBookingEnabled,bookingRulePrefix} from '@/lib/booking-visibility';
 import {d1} from '@/lib/d1-rest';
 import {getDb} from '@/db';
 import {records,settings} from '@/db/schema';
@@ -26,14 +26,19 @@ export async function POST(req:Request){
   if(!name||!car||!service||!/^\+?[0-9() -]{8,20}$/.test(phone))return Response.json({error:'تحقق من الاسم ورقم الجوال والسيارة.'},{status:400});
   if(!slotsForDate(date,config).includes(time))return Response.json({error:'هذا الموعد غير متاح. اختر وقتًا آخر.'},{status:400});
   const match=await db.select().from(records).where(eq(records.id,service));
+  if(!serviceBookingEnabled(s,service))return Response.json({error:'الحجز غير متاح لهذه الخدمة حاليًا.'},{status:403});
   if(match[0]?.kind!=='service'||match[0].status!=='published')return Response.json({error:'اختر خدمة متاحة.'},{status:400});
+  const servicePackages=await db.select().from(records).where(eq(records.meta,service));
+  const publishedPackages=servicePackages.filter(x=>x.kind==='package'&&x.status==='published');
+  if(publishedPackages.length&&!packageId)return Response.json({error:'اختر إحدى الباقات المتاحة للحجز.'},{status:400});
+  if(packageId&&!packageBookingEnabled(s,service,packageId))return Response.json({error:'الحجز غير متاح لهذه الباقة حاليًا.'},{status:403});
   let label=match[0].title;
   if(packageId){const pkg=await db.select().from(records).where(eq(records.id,packageId));if(pkg[0]?.kind!=='package'||pkg[0].meta!==service||pkg[0].status!=='published')return Response.json({error:'اختر باقة متاحة.'},{status:400});label+=' — '+pkg[0].title}
   const id=crypto.randomUUID();
   // One D1 statement makes the capacity check and insert atomic for concurrent requests.
-  const saved=await d1.prepare("INSERT INTO bookings (id,name,phone,car,service,date,time,status,created_at) SELECT ?,?,?,?,?,?,?,'new',? WHERE COALESCE((SELECT value FROM settings WHERE key='bookingEnabled'),'true') != 'false' AND (SELECT COUNT(*) FROM bookings WHERE date=? AND time=? AND status IN ('new','confirmed')) < ?")
-   .bind(id,name,phone,car,label,date,time,new Date().toISOString(),date,time,config.capacity).run();
-  if(!saved.meta?.changes)return Response.json({error:'اكتمل هذا الموعد للتو. اختر وقتًا آخر.'},{status:409});
+  const saved=await d1.prepare("INSERT INTO bookings (id,name,phone,car,service,date,time,status,created_at) SELECT ?,?,?,?,?,?,?,'new',? WHERE COALESCE((SELECT value FROM settings WHERE key='bookingEnabled'),'true') != 'false' AND COALESCE((SELECT value FROM settings WHERE key=?),'') = ? AND (SELECT COUNT(*) FROM bookings WHERE date=? AND time=? AND status IN ('new','confirmed')) < ?")
+   .bind(id,name,phone,car,label,date,time,new Date().toISOString(),bookingRulePrefix+service,s[bookingRulePrefix+service]||'',date,time,config.capacity).run();
+  if(!saved.meta?.changes)return Response.json({error:'تغير توفر الموعد أو خيارات الخدمة. حدّث الصفحة واختر موعدًا متاحًا.'},{status:409});
   const wa=s.whatsapp.replace(/\D/g,'');
   const message=`مرحبًا فاست زون، أرسل طلب حجز بانتظار تأكيدكم.\nرقم الطلب: ${id.slice(0,8)}\nالاسم: ${name}\nالجوال: ${phone}\nالسيارة: ${car}\nالخدمة: ${label}\nالموعد: ${date} · ${time}`;
   return Response.json({ok:true,whatsappUrl:wa?`https://wa.me/${wa}?text=${encodeURIComponent(message)}`:null});
