@@ -176,13 +176,19 @@ export async function ensureCatalog(){
  }
 
  if(!seedKeys.has('services_catalog_pdf_v1')){
-  const catalog=seed('catalog','fast-zone-services','كتالوج خدمات فاست زون','تصفح خدمات المركز وباقاته في كتالوج من 15 صفحة.','',0,'/catalogs/fast-zone-services.pdf');
+  const catalog=seed('catalog','fast-zone-services','كتالوج خدمات فاست زون','تصفح خدمات المركز وباقاته في كتالوج من 20 صفحة.','',0,'/catalogs/fast-zone-services.pdf');
   catalog.image='/catalogs/fast-zone-services-cover.webp';
   await db.batch([
    db.insert(records).values(catalog).onConflictDoNothing(),
-   db.insert(settings).values({key:'translation:'+catalog.id,value:JSON.stringify({title:'Fast Zone service catalogue',body:'Browse the center’s services and packages in a 15-page catalogue.'})}).onConflictDoNothing(),
+   db.insert(settings).values({key:'translation:'+catalog.id,value:JSON.stringify({title:'Fast Zone service catalogue',body:'Browse the center’s services and packages in a 20-page catalogue.'})}).onConflictDoNothing(),
    db.insert(settings).values({key:'services_catalog_pdf_v1',value:'1'}).onConflictDoNothing()
   ]);
+ }
+
+ if(!seedKeys.has('services_catalog_pdf_v3')){
+  const existing=await db.select().from(records).where(eq(records.id,'fast-zone-services'));
+  if(existing[0]?.meta==='/catalogs/fast-zone-services.pdf')await db.update(records).set({body:'تصفح خدمات المركز وباقاته في كتالوج من 20 صفحة.',image:'/catalogs/fast-zone-services-cover.webp'}).where(eq(records.id,'fast-zone-services'));
+  await db.insert(settings).values({key:'services_catalog_pdf_v3',value:'1'}).onConflictDoNothing();
  }
 
 }

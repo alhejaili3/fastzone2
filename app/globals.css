@@ -190,3 +190,19 @@ html[dir=ltr] .mag-toolbar-actions:first-child svg{transform:scaleX(-1)}
 @media(max-width:720px){.mag-cover-spread .mag-page{width:100%}}
 
 .mag-stationary-page{position:absolute;z-index:3;pointer-events:none;object-fit:fill}
+
+/* Physical page folding; RTL mirrors the book geometry, then restores each page's content. */
+.mag-physical-stage{padding:24px;overflow:auto;perspective:none;touch-action:pan-y;min-height:280px}
+.mag-book-mount{width:100%;direction:ltr;max-width:1060px;margin:auto}
+.mag-real-book{margin:auto}.mag-real-page{background:#fff;overflow:hidden;color:#111;box-shadow:inset 0 0 12px #0002}
+.mag-leaf-inner{position:relative;width:100%;height:100%;background:white;overflow:hidden}
+.mag-leaf-inner>img,.mag-leaf-inner>canvas{display:block;width:100%;height:100%;object-fit:contain;user-select:none;-webkit-user-drag:none;pointer-events:none}
+.mag-real-page .mag-page-number{z-index:1;bottom:6px;font-size:11px;pointer-events:none}
+[data-reading-direction=rtl] .mag-book-mount{transform:scaleX(-1)}
+[data-reading-direction=rtl] .mag-leaf-inner{transform:scaleX(-1)}
+.mag-zoom-wrap{min-width:100%;margin:auto}.mag-page-error{padding:25px;text-align:center}
+.mag-physical-stage:fullscreen{display:block;overflow:auto}.mag-physical-stage:fullscreen .mag-book-mount{max-width:1060px}
+.catalog-upload-box{display:grid;gap:12px;padding:20px;margin:16px 0;border:1px dashed var(--primary);border-radius:14px;background:var(--card)}
+.catalog-upload-box .btn{width:max-content;cursor:pointer}.catalog-upload-box progress{width:100%;accent-color:var(--primary)}
+.admin-modal-message{position:sticky;top:0;z-index:4;background:var(--card);padding:12px;border:1px solid var(--border);border-radius:10px;margin-bottom:16px}
+@media(max-width:720px){.mag-physical-stage{padding:8px}.catalog-upload-box{padding:14px}}
