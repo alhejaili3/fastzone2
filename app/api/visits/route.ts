@@ -1,12 +1,12 @@
 import {cookies} from 'next/headers';
 import {NextResponse} from 'next/server';
 import {adminCookie, trustedOrigin, validSession} from '@/lib/admin';
-import {recentVisit, recordPageView, visitCookie, visitToken, visitWindow} from '@/lib/visits';
+import {recentVisit, recordPageView, visitStats, visitCookie, visitToken, visitWindow} from '@/lib/visits';
 export async function POST(req: Request) {
-  if (!trustedOrigin(req.headers.get('origin'))) return new Response(null, {status: 403});
+  if (!trustedOrigin(req.headers.get('origin'))) { console.info('visit-audit', JSON.stringify({status:'origin-rejected'})); return new Response(null, {status: 403}); }
   const jar = await cookies();
   const userAgent = req.headers.get('user-agent') || '';
-  if (/bot|crawler|spider|headless|preview/i.test(userAgent) || validSession(jar.get(adminCookie)?.value || '')) return new Response(null, {status: 204});
+  if (/bot|crawler|spider|headless|preview/i.test(userAgent) || validSession(jar.get(adminCookie)?.value || '')) { console.info('visit-audit', JSON.stringify({status:'excluded',reason:validSession(jar.get(adminCookie)?.value || '')?'admin':'bot'})); return new Response(null, {status: 204}); }
   try {
     if (Number(req.headers.get('content-length') || 0) > 256) return new Response(null, {status: 413});
     const body = await req.text();
@@ -18,9 +18,11 @@ export async function POST(req: Request) {
     const newSession = !recentVisit(jar.get(visitCookie)?.value || '');
     const token = newSession ? visitToken() : '';
     await recordPageView(eventId, newSession);
+    const stats = await visitStats();
+    console.info('visit-audit', JSON.stringify({status:'stored',eventId,newSession,...stats}));
     const response = new NextResponse(null, {status: 204});
     response.headers.set('Cache-Control', 'no-store');
     if (newSession) response.cookies.set(visitCookie, token, {httpOnly: true, secure: new URL(req.url).protocol === 'https:', sameSite: 'lax', path: '/', maxAge: visitWindow});
     return response;
-  } catch { return new Response(null, {status: 503}); }
+  } catch (error) { console.error('visit-audit', JSON.stringify({status:'failed',error:error instanceof Error?error.message:'unknown'})); return new Response(null, {status: 503}); }
 }
