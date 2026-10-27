@@ -1,9 +1,10 @@
+import {legacyVisitOrigin} from '@/lib/visit-origin';
 import {cookies} from 'next/headers';
 import {NextResponse} from 'next/server';
 import {adminCookie, trustedOrigin, validSession} from '@/lib/admin';
 import {recentVisit, recordPageView, visitStats, visitCookie, visitToken, visitWindow} from '@/lib/visits';
 export async function POST(req: Request) {
-  if (!trustedOrigin(req.headers.get('origin'))) { console.info('visit-audit', JSON.stringify({status:'origin-rejected'})); return new Response(null, {status: 403}); }
+  if (!trustedOrigin(req.headers.get('origin')) && !legacyVisitOrigin(req.headers.get('origin'), req.url)) { console.info('visit-audit', JSON.stringify({status:'origin-rejected'})); return new Response(null, {status: 403}); }
   const jar = await cookies();
   const userAgent = req.headers.get('user-agent') || '';
   if (/bot|crawler|spider|headless|preview/i.test(userAgent) || validSession(jar.get(adminCookie)?.value || '')) { console.info('visit-audit', JSON.stringify({status:'excluded',reason:validSession(jar.get(adminCookie)?.value || '')?'admin':'bot'})); return new Response(null, {status: 204}); }

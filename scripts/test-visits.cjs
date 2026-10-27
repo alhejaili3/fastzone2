@@ -19,14 +19,18 @@ function load(file, mocks, globals = {}) {
   return exports;
 }
 process.env.ADMIN_SESSION_SECRET = 'test-only-secret-with-at-least-32-characters';
+const originModule = load('lib/visit-origin.ts', {});
+assert.equal(originModule.legacyVisitOrigin('https://fastzone2.vercel.app', 'https://fastzone2.vercel.app/api/visits'), true);
+assert.equal(originModule.legacyVisitOrigin('https://attacker.example', 'https://fastzone2.vercel.app/api/visits'), false);
+assert.equal(originModule.legacyVisitOrigin('https://fastzone2.vercel.app', 'https://www.fastzone.sa/api/visits'), false);
 const visits = load('lib/visits.ts', {'server-only': {}, '@/lib/d1-rest': d1});
 let jar = {}, admin = false, lastCookie;
 class NextResponse extends Response {
   cookies = {set(name, value, options) {lastCookie = {name, value, options};}};
 }
 const adminModule = {adminCookie: 'admin', trustedOrigin: value => value === 'https://www.fastzone.sa', validSession: value => value === 'valid', allowedAdmin: async () => admin};
-const route = load('app/api/visits/route.ts', {'next/headers': {cookies: async () => ({get: name => jar[name] ? {value: jar[name]} : undefined})}, 'next/server': {NextResponse}, '@/lib/admin': adminModule, '@/lib/visits': visits});
-const statsRoute = load('app/api/admin/visits/route.ts', {'@/lib/admin': adminModule, '@/lib/visits': visits});
+const route = load('app/api/visits/route.ts', {'next/headers': {cookies: async () => ({get: name => jar[name] ? {value: jar[name]} : undefined})}, 'next/server': {NextResponse}, '@/lib/admin': adminModule, '@/lib/visits': visits, '@/lib/visit-origin': originModule});
+const statsRoute = load('app/api/admin/visits/route.ts', {'@/lib/admin': adminModule, '@/lib/visits': visits, '@/lib/visit-origin': originModule});
 const request = (origin = 'https://www.fastzone.sa', agent = 'Mozilla/5.0', eventId = randomUUID()) => new Request('https://www.fastzone.sa/api/visits', {method: 'POST', headers: {origin, 'user-agent': agent}, body: JSON.stringify({eventId})});
 (async () => {
   const now = Date.now(), token = visits.visitToken(now);
@@ -114,7 +118,7 @@ const request = (origin = 'https://www.fastzone.sa', agent = 'Mozilla/5.0', even
     'react': {useEffect: callback => {effect = callback;}, useRef: () => ref},
     'next/navigation': {usePathname: () => pathname},
     '@/lib/visit-tracking': {createViewQueue},
-  }, {document, window, crypto: {randomUUID}, AbortSignal, setTimeout: callback => retryTimers.push(callback), fetch: async (_url, options) => {
+  }, {document, window, crypto: {randomUUID}, AbortSignal, AbortController, setTimeout: callback => retryTimers.push(callback), clearTimeout: () => {}, fetch: async (_url, options) => {
     clientEvents.push(JSON.parse(options.body).eventId);
     return {ok: !failRequest};
   }});

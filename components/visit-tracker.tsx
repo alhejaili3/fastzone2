@@ -4,12 +4,16 @@ import {usePathname} from 'next/navigation';
 import {createViewQueue} from '@/lib/visit-tracking';
 
 const queue = createViewQueue(async event => {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 15000);
+  try {
   const response = await fetch('/api/visits', {
     method: 'POST', credentials: 'same-origin', cache: 'no-store', keepalive: true,
     headers: {'Content-Type': 'application/json'}, body: JSON.stringify(event),
-    signal: AbortSignal.timeout(15000),
+    signal: controller.signal,
   });
   return response.ok;
+  } finally { clearTimeout(timeout); }
 }, (callback, delay) => setTimeout(callback, delay));
 
 export function VisitTracker() {
