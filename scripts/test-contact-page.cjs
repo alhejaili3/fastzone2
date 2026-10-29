@@ -19,6 +19,12 @@ assert.equal(contact.httpsUrl('javascript:alert(1)'), '');
 assert.equal(contact.httpsUrl('https://instagram.com.attacker.example/me',['instagram.com']), '');
 assert.equal(contact.httpsUrl('https://user:pass@instagram.com/me',['instagram.com']), '');
 assert.equal(config.website,'https://www.fastzone.sa/');
+assert.equal(config.socials.tiktok.url,'https://www.tiktok.com/@fast_zone1?_r=1&_t=ZS-9AxuuWIeReA');
+assert.equal(config.socials.snapchat.url,'https://snapchat.com/t/hrkDxRaU');
+const cleared=JSON.parse(JSON.stringify(config));cleared.socials.tiktok.url='';
+assert.equal(contact.contactConfig({contactPage:JSON.stringify(cleared)}).socials.tiktok.url,'','Cleared supplied links remain cleared after saving');
+const oldConfig=contact.contactConfig({contactPage:JSON.stringify({socials:{snapchat:{url:'',visible:false}}})});
+assert.equal(oldConfig.socials.snapchat.visible,true,'Newly requested account is enabled for older settings');
 config.socials.instagram.url='https://www.instagram.com/test_profile/';
 config.socials.snapchat.url='https://www.snapchat.com/add/test_profile';
 config.socials.snapchat.visible=false;
@@ -49,10 +55,11 @@ const request=body=>new Request('https://www.fastzone.sa/api/admin',{method:'POS
  const social=load('components/social-mark.tsx',{'@/lib/contact-page':contact});
  const share=load('components/contact-share.tsx');
  const frame=load('components/contact-frame.tsx',{'@/components/contact-share':share});
+ const actionIcons=load('components/contact-action-icon.tsx');
  const page=load('app/contact/page.tsx',{
   'next/navigation':{notFound(){throw Error('NOT_FOUND');}},
   '@/lib/site':{loadSite:async()=>({settings:{...shared,contactPage:stored}}),safeImage:value=>value},
-  '@/lib/contact-page':contact,'@/components/social-mark':social,'@/components/contact-share':share,'@/components/contact-frame':frame,'./contact.css':{},
+  '@/lib/contact-page':contact,'@/components/social-mark':social,'@/components/contact-share':share,'@/components/contact-frame':frame,'@/components/contact-action-icon':actionIcons,'./contact.css':{},
  });
  let html=renderToStaticMarkup(await page.default());
  assert.ok(html.includes('data-contact-theme="light"'),'New and older configurations default to light');
