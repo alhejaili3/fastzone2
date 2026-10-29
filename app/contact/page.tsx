@@ -6,7 +6,7 @@ import {ContactShare} from '@/components/contact-share';
 import {SocialMark} from '@/components/social-mark';
 import './contact.css';
 export const dynamic='force-dynamic';
-export const metadata={title:'تواصل معنا | فاست زون',description:'اتصل بمركز فاست زون، تواصل عبر واتساب، افتح موقعنا على الخرائط وتابع حساباتنا من مكان واحد.'};
+export const metadata={title:'تواصل معنا',description:'اتصل بمركز فاست زون، تواصل عبر واتساب، افتح موقعنا على الخرائط وتابع حساباتنا من مكان واحد.'};
 export default async function ContactPage(){
   const {settings}=await loadSite();const c=contactConfig(settings);
   if(!c.enabled)notFound();
