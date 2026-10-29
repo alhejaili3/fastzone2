@@ -10,7 +10,7 @@ export function SiteIntro({settings}:{settings:Record<string,string>}) {
     const root = document.documentElement;
     const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     const internalNavigation = document.referrer.startsWith(location.origin) && (performance.getEntriesByType('navigation')[0] as PerformanceNavigationTiming|undefined)?.type !== 'reload';
-    if (location.pathname.startsWith('/admin') || reducedMotion || internalNavigation) {
+    if (location.pathname.startsWith('/admin') || location.pathname === '/contact' || reducedMotion || internalNavigation) {
       root.classList.remove('fz-intro-pending');
       return;
     }

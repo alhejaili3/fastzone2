@@ -1,8 +1,15 @@
+import {validateContactConfig} from '@/lib/contact-page';
 import {bookingRulePrefix} from '@/lib/booking-visibility';
 import {allowedAdmin} from '@/lib/admin';import {getDb} from '@/db';import {records,settings,bookings} from '@/db/schema';import {eq,desc} from 'drizzle-orm';import {cleanText,safeImage,ensureCatalog,defaults,safeCatalogPdf} from '@/lib/site';import {categoryFor} from '@/lib/catalog';
 const forbid=()=>Response.json({error:'غير مصرح'},{status:403});
 export async function GET(){try{if(!await allowedAdmin())return forbid();const db=getDb();await ensureCatalog();const [r,s,b]=await Promise.all([db.select().from(records).orderBy(desc(records.createdAt)),db.select().from(settings),db.select().from(bookings).orderBy(desc(bookings.createdAt))]);return Response.json({items:r,settings:{...defaults,...Object.fromEntries(s.filter(x=>x.key!=='admin_owner_id'&&x.key!=='googlePlacesApiKey').map(x=>[x.key,x.value]))},googleKeyConfigured:s.some(x=>x.key==='googlePlacesApiKey'&&!!x.value),bookings:b})}catch{return Response.json({error:'تعذر تحميل البيانات'},{status:503})}}
-export async function POST(req:Request){try{if(!await allowedAdmin())return forbid();const d=await req.json() as any,db=getDb();if(d.type==='bookingServiceRule'){
+export async function POST(req:Request){try{if(!await allowedAdmin())return forbid();const d=await req.json() as any,db=getDb();if(d.type==='contactPage'){
+ const result=validateContactConfig(d.config);
+ if(result.error)return Response.json({error:result.error},{status:400});
+ const value=JSON.stringify(result.config);
+ await db.insert(settings).values({key:'contactPage',value}).onConflictDoUpdate({target:settings.key,set:{value}});
+ return Response.json({ok:true});
+ }if(d.type==='bookingServiceRule'){
  const id=cleanText(d.id,100);const all=await db.select().from(records);const service=all.find(x=>x.id===id&&x.kind==='service');
  if(!service||typeof d.enabled!=='boolean'||!(d.packageIds===null||Array.isArray(d.packageIds)))return Response.json({error:'خيارات حجز الخدمة غير صالحة'},{status:400});
  if(d.packageIds!==null&&(d.packageIds.length>100||d.packageIds.some((pid:unknown)=>typeof pid!=='string'||!all.some(x=>x.id===pid&&x.kind==='package'&&x.meta===id))))return Response.json({error:'اختر باقات تابعة لهذه الخدمة'},{status:400});

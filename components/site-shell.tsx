@@ -1,4 +1,5 @@
 'use client';
+import {contactConfig} from '@/lib/contact-page';
 import {bookingsEnabled} from '@/lib/booking-visibility';
 import {useState,useEffect} from 'react';
 import {whatsappLink} from '@/lib/whatsapp';
@@ -46,7 +47,7 @@ export function Footer({s}:{s:Record<string,string>}){
     <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(190px,1fr))',gap:35}}>
       <div><strong style={{fontSize:25}}><span style={{color:'var(--primary)'}}>فاست</span> زون</strong><p className="muted" style={{lineHeight:2}}>{s.footer}</p></div>
       <div><strong>استكشف</strong><p><a href="/services">جميع الخدمات</a></p><p><a href="/articles">النصائح والمقالات</a></p><p><a href="/reviews">آراء العملاء</a></p><p><a href="/catalog">كتالوج العروض</a></p></div>
-      <div><strong>تواصل معنا</strong><p className="muted"><MapPin size={16} style={{display:'inline',verticalAlign:'middle'}}/> {s.address}</p><p className="muted"><Clock3 size={16} style={{display:'inline',verticalAlign:'middle'}}/> {s.hours}</p>{s.phone&&<p><a href={'tel:'+s.phone}><Phone size={16} style={{display:'inline'}}/> {s.phone}</a></p>}</div>
+      <div><strong>تواصل معنا</strong>{contactConfig(s).enabled&&<p><a href="/contact">جميع طرق التواصل ↗</a></p>}<p className="muted"><MapPin size={16} style={{display:'inline',verticalAlign:'middle'}}/> {s.address}</p><p className="muted"><Clock3 size={16} style={{display:'inline',verticalAlign:'middle'}}/> {s.hours}</p>{s.phone&&<p><a href={'tel:'+s.phone}><Phone size={16} style={{display:'inline'}}/> {s.phone}</a></p>}</div>
       <div><strong>جاهز لخدمة سيارتك</strong>{bookingsEnabled(s)&&<><p className="muted">احجز موعدك بسهولة وسنتواصل معك لتأكيد التفاصيل.</p><a className="btn small" href="/#booking">اطلب موعدًا</a></>}{wa&&<p><a href={wa} target="_blank" rel="noopener noreferrer">تواصل عبر واتساب ↗</a></p>}</div>
     </div>
     <section className="location-panel" aria-label="موقع المركز على الخريطة">

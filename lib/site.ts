@@ -14,6 +14,7 @@ import {maintenanceArticles} from './maintenance-articles';
 import {deepCleaningService,deepCleaningPackages,serviceFeatures} from './service-content';
 export type Item = typeof records.$inferSelect;
 export const defaults: Record<string,string> = {
+ contactPage:'{}',
  brand:'فاست زون', logo:'/fast-zone-emblem-transparent.png', introCaption:'مركز فاست زون لصيانة السيارات', introServices:'فحص دقيق|صيانة متقنة|عناية بكل تفصيلة', tag:'عناية أدق. طريق أطول.', heroTitle:'سيارتك في أيدٍ تعرف التفاصيل.',
  heroBody:'فحص دقيق، خدمة واضحة، وتجربة صيانة تستحق ثقتك في المدينة المنورة.',
  phone:'0558075854', whatsapp:'966558075854', whatsappGreeting:'مرحبًا فاست زون، أود الاستفسار عن خدماتكم.', whatsappServiceTemplate:'مرحبًا فاست زون، أود معرفة تفاصيل خدمة {service}{package}.', address:'المدينة المنورة – العزيزية – طريق الملك خالد (الدائري الثالث) – محطة شموخ', hours:'يوميًا من 9:30 صباحًا حتى 9:30 مساءً',
