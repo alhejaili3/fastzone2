@@ -48,12 +48,20 @@ const request=body=>new Request('https://www.fastzone.sa/api/admin',{method:'POS
  assert.equal(JSON.parse(stored).socials.instagram.url,config.socials.instagram.url);
  const social=load('components/social-mark.tsx',{'@/lib/contact-page':contact});
  const share=load('components/contact-share.tsx');
+ const frame=load('components/contact-frame.tsx',{'@/components/contact-share':share});
  const page=load('app/contact/page.tsx',{
   'next/navigation':{notFound(){throw Error('NOT_FOUND');}},
   '@/lib/site':{loadSite:async()=>({settings:{...shared,contactPage:stored}}),safeImage:value=>value},
-  '@/lib/contact-page':contact,'@/components/social-mark':social,'@/components/contact-share':share,'./contact.css':{},
+  '@/lib/contact-page':contact,'@/components/social-mark':social,'@/components/contact-share':share,'@/components/contact-frame':frame,'./contact.css':{},
  });
  let html=renderToStaticMarkup(await page.default());
+ assert.ok(html.includes('data-contact-theme="light"'),'New and older configurations default to light');
+ assert.ok(contact.validateContactConfig({...config,defaultTheme:'unsupported'}).error);
+ const darkConfig={...JSON.parse(stored),defaultTheme:'dark'};
+ assert.equal((await admin.POST(request({type:'contactPage',config:darkConfig}))).status,200);
+ html=renderToStaticMarkup(await page.default());
+ assert.ok(html.includes('data-contact-theme="dark"'),'Administrator default survives save and public rendering');
+ assert.ok(html.includes('التبديل إلى المظهر الفاتح'),'Visitor can switch appearance');
  for(const link of ['tel:+966558075854','https://wa.me/966558075854','https://www.google.com/maps/search/','https://www.fastzone.sa/','https://www.instagram.com/test_profile/'])assert.ok(html.includes(link),'Rendered destination '+link);
  assert.ok(!html.includes('https://www.snapchat.com/add/test_profile'),'Hidden social stays hidden');
  assert.ok(!html.includes('فيسبوك'),'Unconfigured social stays hidden');

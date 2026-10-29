@@ -10,7 +10,7 @@ export const socialPlatforms = [
 ] as const;
 export type SocialId = typeof socialPlatforms[number]['id'];
 export type ContactPageConfig = {
-  enabled:boolean; title:string; subtitle:string; phone:string; whatsapp:string;
+  enabled:boolean; defaultTheme:'light'|'dark'; title:string; subtitle:string; phone:string; whatsapp:string;
   address:string; hours:string; maps:string; website:string;
   showPhone:boolean; showWhatsapp:boolean; showMaps:boolean; showWebsite:boolean;
   socials:Record<SocialId,{url:string; visible:boolean}>;
@@ -39,7 +39,7 @@ export function contactConfig(settings:Record<string,string>):ContactPageConfig 
   const address=text('address',settings.address||'المدينة المنورة – العزيزية – الدائري الثالث – محطة شموخ');
   const socials=Object.fromEntries(socialPlatforms.map(p=>[p.id,{url:httpsUrl(saved.socials?.[p.id]?.url,p.hosts),visible:saved.socials?.[p.id]?.visible!==false}])) as ContactPageConfig['socials'];
   return {
-    enabled:saved.enabled!==false,title:text('title','فاست زون لصيانة السيارات'),
+    enabled:saved.enabled!==false,defaultTheme:saved.defaultTheme==='dark'?'dark':'light',title:text('title','فاست زون لصيانة السيارات'),
     subtitle:text('subtitle','نعتني بتفاصيل سيارتك. تواصل معنا بالطريقة التي تناسبك.'),
     phone:text('phone',settings.phone||''),whatsapp:text('whatsapp',settings.whatsapp||''),
     address,hours:text('hours',settings.hours||''),
@@ -53,6 +53,7 @@ export function validateContactConfig(value:unknown):{config?:ContactPageConfig;
   if(!value||typeof value!=='object'||Array.isArray(value))return {error:'بيانات صفحة التواصل غير صالحة'};
   const v=value as Record<string,unknown>;
   for(const key of ['enabled','showPhone','showWhatsapp','showMaps','showWebsite'])if(typeof v[key]!=='boolean')return {error:'خيارات الظهور غير صالحة'};
+  if(v.defaultTheme!==undefined&&!['light','dark'].includes(v.defaultTheme as string))return {error:'اختر المظهر الفاتح أو الداكن'};
   const limits:Record<string,number>={title:100,subtitle:240,phone:30,whatsapp:30,address:240,hours:160,maps:1600,website:600};
   for(const [key,max] of Object.entries(limits))if(typeof v[key]!=='string'||(v[key] as string).length>max)return {error:'تحقق من طول الحقل: '+key};
   if(!(v.title as string).trim())return {error:'اكتب عنوان الصفحة'};
